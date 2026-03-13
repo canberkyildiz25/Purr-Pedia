@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:mymemory.translated.net)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:docs.libretranslate.com)",
+      "WebSearch"
+    ]
+  }
+}
