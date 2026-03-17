@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -38,6 +38,10 @@
 @layer components {
   .btn-primary {
     @apply bg-purr-500 hover:bg-purr-600 active:bg-purr-700 text-white font-semibold px-6 py-2.5 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 inline-block;
+  }
+
+  .btn-secondary {
+    @apply bg-white border border-orange-200 hover:bg-orange-50 text-gray-700 font-semibold px-6 py-2.5 rounded-xl transition-all duration-200 shadow-sm hover:shadow-md inline-block;
   }
 
   .card {

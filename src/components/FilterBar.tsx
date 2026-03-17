@@ -29,19 +29,39 @@ export default function FilterBar({ filter, sort, onFilterChange, onSortChange, 
   ]
 
   return (
-    <div className="flex items-center justify-end gap-3">
-      <span className="text-sm text-gray-500">{t('breeds_count', { count: String(total) })}</span>
-      <select
-        value={sort}
-        onChange={(e) => onSortChange(e.target.value as SortOption)}
-        className="text-sm bg-white border border-orange-200 rounded-xl px-3 py-1.5 text-gray-700 focus:outline-none focus:ring-2 focus:ring-purr-300 cursor-pointer"
-      >
-        {SORTS.map((s) => (
-          <option key={s.value} value={s.value}>
-            {s.label}
-          </option>
+    <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      {/* Filter pills */}
+      <div className="flex flex-wrap gap-2">
+        {FILTERS.map((f) => (
+          <button
+            key={f.value}
+            onClick={() => onFilterChange(f.value)}
+            className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+              filter === f.value
+                ? 'bg-purr-500 text-white shadow-sm'
+                : 'bg-white border border-orange-200 text-gray-600 hover:bg-orange-50'
+            }`}
+          >
+            {f.label}
+          </button>
         ))}
-      </select>
+      </div>
+
+      {/* Sort + count */}
+      <div className="flex items-center gap-3">
+        <span className="text-sm text-gray-500 whitespace-nowrap">{t('breeds_count', { count: String(total) })}</span>
+        <select
+          value={sort}
+          onChange={(e) => onSortChange(e.target.value as SortOption)}
+          className="text-sm bg-white border border-orange-200 rounded-xl px-3 py-1.5 text-gray-700 focus:outline-none focus:ring-2 focus:ring-purr-300 cursor-pointer"
+        >
+          {SORTS.map((s) => (
+            <option key={s.value} value={s.value}>
+              {s.label}
+            </option>
+          ))}
+        </select>
+      </div>
     </div>
   )
 }

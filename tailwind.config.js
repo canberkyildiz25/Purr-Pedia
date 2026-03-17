@@ -7,23 +7,38 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Brand palette — Fiery Terracotta as primary
         purr: {
-          50:  '#fdf6f0',
-          100: '#fbeadb',
-          200: '#f5cfb2',
-          300: '#efad82',
-          400: '#e7864f',
-          500: '#e16930',
-          600: '#d35224',
-          700: '#af3e1f',
-          800: '#8c3320',
-          900: '#722c1e',
-          950: '#3d130c',
+          50:  '#fefef5',
+          100: '#F2F3AE', // Vanilla Custard
+          200: '#EDD382', // Light Gold
+          300: '#F5C46A',
+          400: '#FC9E4F', // Sandy Brown
+          500: '#F4442E', // Fiery Terracotta  ← main brand
+          600: '#d93520',
+          700: '#b02818',
+          800: '#7a1a0e',
+          900: '#020122', // Prussian Blue
+          950: '#010011',
+        },
+        // Override Tailwind orange → warm palette (subtle backgrounds & borders)
+        orange: {
+          50:  '#fefef5',
+          100: '#F2F3AE', // Vanilla Custard
+          200: '#EDD382', // Light Gold
+          300: '#F5C46A',
+          400: '#FC9E4F', // Sandy Brown
+          500: '#F4442E', // Fiery Terracotta
+          600: '#d93520',
+          700: '#b02818',
+          800: '#7a1a0e',
+          900: '#020122', // Prussian Blue
+          950: '#010011',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Poppins', 'system-ui', 'sans-serif'],
+        sans:    ['Comfortaa', 'system-ui', 'sans-serif'],
+        display: ['Comfortaa', 'system-ui', 'sans-serif'],
       },
     },
   },
