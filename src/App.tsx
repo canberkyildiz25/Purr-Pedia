@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ComparisonBar from './components/ComparisonBar'
 import { useAppDispatch, useAppSelector } from './store/hooks'
 import { detectLanguage } from './store/languageSlice'
 import { purgeBadCache } from './api/translateApi'
@@ -12,6 +13,9 @@ purgeBadCache()
 const HomePage = lazy(() => import('./pages/HomePage'))
 const BreedDetailPage = lazy(() => import('./pages/BreedDetailPage'))
 const FavoritesPage = lazy(() => import('./pages/FavoritesPage'))
+const QuizPage = lazy(() => import('./pages/QuizPage'))
+const ComparisonPage = lazy(() => import('./pages/ComparisonPage'))
+const CarePage = lazy(() => import('./pages/CarePage'))
 
 function PageLoader() {
   const lang = useAppSelector((s) => s.language.lang)
@@ -43,10 +47,14 @@ function AppRoutes() {
             <Route path="/" element={<HomePage />} />
             <Route path="/breed/:id" element={<BreedDetailPage />} />
             <Route path="/favorites" element={<FavoritesPage />} />
+            <Route path="/quiz" element={<QuizPage />} />
+            <Route path="/compare" element={<ComparisonPage />} />
+            <Route path="/care" element={<CarePage />} />
           </Routes>
         </Suspense>
       </main>
       <Footer />
+      <ComparisonBar />
     </div>
   )
 }
