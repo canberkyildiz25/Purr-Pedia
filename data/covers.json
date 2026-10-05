@@ -1,0 +1,79 @@
+{
+ "fetched": "2026-10-06",
+ "width": 2000,
+ "height": 1125,
+ "covers": {
+  "feeding": {
+   "title": "Nicosia 01-2017 img06 cats.jpg",
+   "by": "A.Savin",
+   "licence": "FAL",
+   "licenceUrl": "http://artlibre.org/licence/lal/en",
+   "page": "https://commons.wikimedia.org/wiki/File:Nicosia_01-2017_img06_cats.jpg",
+   "full": 4520
+  },
+  "drinking": {
+   "title": "Drinking Cat.jpg",
+   "by": "Learicorn",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Drinking_Cat.jpg",
+   "full": 5184
+  },
+  "litter": {
+   "title": "Japanese litter box in use.jpg",
+   "by": "Ocdp",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Japanese_litter_box_in_use.jpg",
+   "full": 3216
+  },
+  "grooming": {
+   "title": "Mocchi the cat licking his paw.jpg",
+   "by": "Takashi Hososhima",
+   "licence": "CC BY-SA 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mocchi_the_cat_licking_his_paw.jpg",
+   "full": 4928
+  },
+  "poisons": {
+   "title": "Tomcat Leonidas in spring 06.jpg",
+   "by": "Burkhard Mücke",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tomcat_Leonidas_in_spring_06.jpg",
+   "full": 6000
+  },
+  "vet": {
+   "title": "Kitten check up at Guantanamo.jpg",
+   "by": "The National Guard",
+   "licence": "Public domain",
+   "licenceUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Kitten_check_up_at_Guantanamo.jpg",
+   "full": 4288
+  },
+  "teeth": {
+   "title": "Cat yawn.jpg",
+   "by": "Henry Söderlund",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cat_yawn.jpg",
+   "full": 6960
+  },
+  "play": {
+   "title": "Ellie playing with her mouse. (19195686924).jpg",
+   "by": "GPS 56",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ellie_playing_with_her_mouse._(19195686924).jpg",
+   "full": 4825
+  },
+  "reading": {
+   "title": "Tabby cats of Ōizumi Ryokuchi Park, January 2019 - 8816.jpg",
+   "by": "Laitche",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tabby_cats_of_%C5%8Cizumi_Ryokuchi_Park,_January_2019_-_8816.jpg",
+   "full": 5133
+  }
+ }
+}

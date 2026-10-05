@@ -1,0 +1,587 @@
+/* The other pages: a region, the index, the timeline, compare, the guide and
+   the care page, sizes, words, credits, about. */
+
+@layer components {
+  /* ---------- A region ---------- */
+  .field-head {
+    max-width: var(--page);
+    margin-inline: auto;
+    padding: clamp(2rem, 5vw, 4rem) var(--gutter) 0;
+  }
+  .field-head h1 {
+    display: flex;
+    align-items: center;
+    gap: 0.35em;
+    margin-top: 0.5rem;
+    font-size: var(--t-hero);
+    line-height: 0.98;
+    letter-spacing: -0.042em;
+  }
+  .field-head h1::before {
+    content: '';
+    flex: none;
+    width: 0.3em;
+    height: 0.3em;
+    border-radius: 50%;
+    background: var(--field);
+  }
+  .field-head p {
+    margin-top: 1.25rem;
+    max-width: 36rem;
+    font-size: var(--t-lede);
+    line-height: 1.45;
+    color: var(--ink-2);
+  }
+  .jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  .place {
+    padding-top: clamp(3rem, 6vw, 5rem);
+  }
+  .place h2 {
+    font-size: var(--t-h2);
+  }
+  .place > p {
+    margin-top: 0.5rem;
+    color: var(--ink-2);
+  }
+  .place .tiles {
+    margin-top: 2rem;
+  }
+
+  /* ---------- The index ---------- */
+  .finder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 0.75rem 1rem;
+  }
+  .field--wide {
+    flex: 1 1 16rem;
+  }
+  @media (max-width: 34rem) {
+    .finder .field {
+      flex: 1 1 100%;
+    }
+  }
+
+  /* ---------- The timeline ---------- */
+  .decade {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    padding-block: clamp(2rem, 4vw, 3rem);
+    border-top: 1px solid var(--line);
+  }
+  .decade h2 {
+    font-size: var(--t-h2);
+  }
+  .decade__note {
+    margin-top: 0.5rem;
+    max-width: 16rem;
+    color: var(--ink-2);
+  }
+  @media (min-width: 60rem) {
+    .decade {
+      grid-template-columns: minmax(0, 3fr) minmax(0, 9fr);
+      gap: 2rem;
+    }
+  }
+
+  /* ---------- Compare ---------- */
+  .compare {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+  .compare__col {
+    display: grid;
+    align-content: start;
+    justify-items: start;
+    gap: 1rem;
+  }
+  .compare__col .tile,
+  .compare__col dl {
+    width: 100%;
+  }
+  .compare__col dl > div {
+    padding-block: 0.75rem;
+    border-top: 1px solid var(--line);
+  }
+  .compare__col dt {
+    font-size: 0.9rem;
+    color: var(--ink-2);
+  }
+  .compare__col dd {
+    font-weight: 500;
+  }
+  /* a range on the scale every column shares */
+  .span {
+    position: relative;
+    display: block;
+    height: 0.375rem;
+    margin-top: 0.5rem;
+    border-radius: var(--r-pill);
+    background: var(--line);
+  }
+  .span i {
+    position: absolute;
+    inset-block: 0;
+    border-radius: var(--r-pill);
+    background: var(--field);
+  }
+  @media (min-width: 52rem) {
+    .compare {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 2rem;
+    }
+  }
+
+  /* ---------- About ---------- */
+  .about {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 3rem;
+    padding-block: 1.5rem clamp(3rem, 6vw, 5rem);
+  }
+  .about section {
+    max-width: 36rem;
+  }
+  .about h2 {
+    font-size: 1.375rem;
+    letter-spacing: -0.02em;
+  }
+  .about p {
+    margin-top: 0.75rem;
+    color: var(--ink-2);
+  }
+  .about .btn {
+    margin-top: 1.25rem;
+  }
+  @media (min-width: 60rem) {
+    .about {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 4rem clamp(2.5rem, 6vw, 6rem);
+    }
+  }
+
+  /* ---------- Chapters and ledgers (guide, care) ----------
+     A ledger is a ruled list: what is counted or named on the left, what
+     there is to say about it on the right. */
+  .chapter {
+    padding-top: clamp(4rem, 9vw, 8rem);
+  }
+  .chapter > h2 {
+    font-size: var(--t-h1);
+    max-width: 18ch;
+  }
+  .chapter__lede {
+    margin-top: 1rem;
+    max-width: 36rem;
+    font-size: var(--t-lede);
+    line-height: 1.45;
+    color: var(--ink-2);
+  }
+  .chapter__after {
+    margin-top: 1.5rem;
+    max-width: 36rem;
+    color: var(--ink-2);
+  }
+  .chapter__after--strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .ledger {
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--line);
+  }
+  .ledger > li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+    padding-block: 2rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .ledger__fig,
+  .ledger h3 {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    font-size: clamp(1.5rem, 2.6vw, 2.125rem);
+    font-weight: 560;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+  }
+  .ledger__fig small {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: var(--ink-2);
+  }
+  .ledger > li > p:not(.ledger__fig, .cite) {
+    max-width: 34rem;
+    font-size: var(--t-lede);
+    line-height: 1.55;
+  }
+  .ledger .cite {
+    margin-top: 0;
+  }
+  .ledger--counted {
+    counter-reset: row;
+  }
+  .ledger--counted > li {
+    counter-increment: row;
+  }
+  .ledger--counted h3::before {
+    content: counter(row) '. ';
+    font-weight: 400;
+    color: var(--ink-2);
+  }
+  @media (min-width: 52rem) {
+    .ledger > li {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+      column-gap: clamp(2rem, 5vw, 5rem);
+      align-items: start;
+    }
+    .ledger > li > :first-child {
+      grid-row: 1 / span 3;
+    }
+    .ledger > li > :not(:first-child) {
+      grid-column: 2;
+    }
+  }
+
+  /* ---------- A film with what it shows ---------- */
+  .plates > h2 {
+    margin-bottom: clamp(2rem, 4vw, 3.5rem);
+  }
+  .plate {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    padding-block: clamp(2rem, 4vw, 3.5rem);
+    border-top: 1px solid var(--line);
+  }
+  .plate h3 {
+    font-size: var(--t-h2);
+    max-width: 16ch;
+  }
+  .plate__text > p:not(.cite) {
+    margin-top: 1rem;
+    max-width: 32rem;
+    font-size: var(--t-lede);
+    line-height: 1.55;
+    color: var(--ink-2);
+  }
+  .clip {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--r-panel);
+    background: var(--wash);
+  }
+  .clip video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .clip__play {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--r-pill);
+    background: var(--raised);
+    color: var(--ink);
+    box-shadow: var(--shadow);
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 120ms var(--ease-out);
+  }
+  /* the whole still starts the film, not only the label */
+  .clip__play::after {
+    content: '';
+    position: absolute;
+    inset: -100vmax;
+  }
+  .clip__play:active {
+    transform: scale(0.97);
+  }
+  .clip__length {
+    font-weight: 400;
+    color: var(--ink-2);
+  }
+  @media (min-width: 60rem) {
+    .plate {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      gap: clamp(2rem, 5vw, 5rem);
+      align-items: center;
+    }
+    /* every other film sits on the right */
+    .plate:nth-of-type(even) {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    }
+    .plate:nth-of-type(even) .plate__film {
+      order: 2;
+    }
+  }
+
+  .falling {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+  .falling img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--r-photo);
+  }
+  .falling h2 {
+    font-size: var(--t-h2);
+    max-width: 18ch;
+  }
+  .falling div > p:not(.cite) {
+    margin-top: 1rem;
+    max-width: 32rem;
+    font-size: var(--t-lede);
+    line-height: 1.55;
+    color: var(--ink-2);
+  }
+  @media (min-width: 60rem) {
+    .falling {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      gap: clamp(2rem, 5vw, 5rem);
+      align-items: center;
+    }
+  }
+
+  .refs ol {
+    margin-top: 2rem;
+    padding-left: 1.75rem;
+    max-width: 36rem;
+    list-style: decimal;
+    font-size: 0.92rem;
+    color: var(--ink-2);
+  }
+  .refs li {
+    padding: 0.25rem 0 0.25rem 0.25rem;
+  }
+  .refs__next {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 2.5rem;
+    padding-bottom: clamp(1rem, 3vw, 2rem);
+  }
+  .refs__next--end {
+    margin-top: clamp(3rem, 6vw, 5rem);
+  }
+
+  /* ---------- Sizes: every breed's range on one scale ---------- */
+  .scale__pick {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .scale__axis,
+  .scale__rows > li {
+    display: grid;
+    grid-template-columns: minmax(0, 11rem) minmax(0, 1fr) 5.5rem;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .scale__axis {
+    height: 1.75rem;
+    border-bottom: 1px solid var(--edge);
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+  .scale__axis > :last-child {
+    text-align: right;
+  }
+  .scale__ticks {
+    position: relative;
+    height: 100%;
+  }
+  .scale__ticks i {
+    position: absolute;
+    bottom: 0.25rem;
+    transform: translateX(-50%);
+    font-style: normal;
+  }
+  .scale__ticks i:first-child {
+    transform: none;
+  }
+  .scale__ticks i:last-child {
+    transform: translateX(-100%);
+  }
+  .scale__rows > li {
+    min-height: 2.75rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .scale__rows a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  /* a faint rule at every step of the axis */
+  .scale__track {
+    position: relative;
+    height: 0.5rem;
+    background-image: linear-gradient(to right, var(--line) 1px, transparent 1px);
+    background-size: var(--step) 100%;
+  }
+  .scale__track i {
+    position: absolute;
+    inset-block: 0;
+    min-width: 0.25rem;
+    border-radius: var(--r-pill);
+    background: var(--field);
+  }
+  .scale__value {
+    font-size: 0.92rem;
+    color: var(--ink-2);
+    text-align: right;
+    white-space: nowrap;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .scale__rows a:hover,
+    .wordbars a:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.22em;
+    }
+  }
+  @media (max-width: 39.99rem) {
+    .scale__axis {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .scale__axis > :not(.scale__ticks) {
+      display: none;
+    }
+    .scale__rows > li {
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas:
+        'name value'
+        'track track';
+      padding-bottom: 0.75rem;
+    }
+    .scale__rows a {
+      grid-area: name;
+    }
+    .scale__track {
+      grid-area: track;
+    }
+    .scale__value {
+      grid-area: value;
+    }
+  }
+
+  /* ---------- Words, counted ---------- */
+  .wordbars {
+    border-top: 1px solid var(--edge);
+  }
+  .wordbars > li {
+    display: grid;
+    grid-template-columns: minmax(0, 9.5rem) minmax(0, 1fr) 2.5rem;
+    align-items: center;
+    column-gap: 1rem;
+    min-height: 2.75rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .wordbars a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .wordbars__track i {
+    display: block;
+    height: 0.5rem;
+    min-width: 0.25rem;
+    border-radius: var(--r-pill);
+    background: var(--ink);
+  }
+  .wordbars__count {
+    color: var(--ink-2);
+    text-align: right;
+  }
+  .wordnotes {
+    padding-top: clamp(3rem, 6vw, 5rem);
+  }
+
+  /* ---------- Credits ---------- */
+  .credits {
+    padding-bottom: clamp(3rem, 6vw, 5rem);
+  }
+  .credits h2 {
+    font-size: var(--t-h2);
+  }
+  .credits__lede {
+    margin-top: 0.75rem;
+    max-width: 36rem;
+    color: var(--ink-2);
+  }
+  .credits__head {
+    display: none;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--ink-2);
+  }
+  .credits__list {
+    margin-top: 2rem;
+    border-top: 1px solid var(--edge);
+    font-size: 0.94rem;
+  }
+  .credits__list > li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.25rem 1rem;
+    padding-block: 0.75rem;
+    border-bottom: 1px solid var(--line);
+    overflow-wrap: anywhere;
+  }
+  .credits__list > li > :first-child {
+    font-weight: 500;
+  }
+  @media (min-width: 52rem) {
+    .credits__head,
+    .credits__list > li {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 5fr) minmax(0, 3fr) minmax(0, 2fr);
+      column-gap: 1.5rem;
+    }
+    .credits__head--films,
+    .credits__list--films > li {
+      grid-template-columns: minmax(0, 6fr) minmax(0, 4fr) minmax(0, 2fr);
+    }
+    .credits__head + .credits__list {
+      margin-top: 0;
+    }
+    /* a breed's later rows keep their place under its name */
+    .credits__list > li > .sr-only + span {
+      grid-column: 2;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clip__play:active {
+    transform: none;
+  }
+}

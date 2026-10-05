@@ -1,0 +1,548 @@
+@import 'tailwindcss';
+@import './styles/chrome.css';
+@import './styles/home.css';
+@import './styles/breed.css';
+@import './styles/pages.css';
+@import './styles/articles.css';
+
+/*
+ * An atlas of cat breeds, filed by where each one began. The page is nearly
+ * white and almost empty: one typeface at three weights, hairlines, and
+ * photographs with soft corners. Colour belongs to the photographs. The only
+ * colour the page adds is a small dot: each of the six regions has one, and a
+ * dot in that colour always means that region.
+ *
+ * Motion carries the show instead. On the home page the wheel plays a film,
+ * tours a map and pulls a row of decades sideways; everywhere else things
+ * arrive once and stay.
+ */
+
+@theme static {
+  --font-sans: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+:root {
+  --paper: oklch(0.992 0.002 95);
+  /* one step down: a still surface for a map, an empty photograph, a field */
+  --wash: oklch(0.968 0.003 95);
+  --raised: oklch(0.998 0.002 95);
+  --ink: oklch(0.21 0.006 95);
+  --ink-2: oklch(0.44 0.006 95);
+  --line: oklch(0.912 0.004 95);
+  /* the edge of a control: 3:1 against the page */
+  --edge: oklch(0.62 0.006 95);
+  --land: oklch(0.885 0.005 95);
+  --veil: oklch(0.21 0.006 95 / 0.34);
+  --shadow: 0 1px 2px oklch(0.21 0.006 95 / 0.06), 0 16px 40px -16px oklch(0.21 0.006 95 / 0.28);
+
+  /* The six regions. A dot, a mark on the map, a bar on a chart. Never a surface. */
+  --americas: oklch(0.74 0.16 55);
+  --isles: oklch(0.5 0.19 263);
+  --europe: oklch(0.72 0.13 160);
+  --westasia: oklch(0.83 0.16 98);
+  --east: oklch(0.72 0.14 8);
+  --everywhere: oklch(0.5 0.006 95);
+
+  --focus: var(--ink);
+  --r-panel: 1.25rem;
+  --r-photo: 0.875rem;
+  --r-small: 0.625rem;
+  --r-pill: 62.5rem;
+  --bar: 4rem;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --page: 82rem;
+
+  --t-hero: clamp(2.75rem, 6.2vw, 5.5rem);
+  --t-h1: clamp(2.25rem, 4.4vw, 3.75rem);
+  --t-h2: clamp(1.75rem, 3vw, 2.5rem);
+  --t-lede: clamp(1.125rem, 1.4vw, 1.3125rem);
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --paper: oklch(0.165 0.005 95);
+    --wash: oklch(0.205 0.005 95);
+    --raised: oklch(0.225 0.005 95);
+    --ink: oklch(0.955 0.004 95);
+    --ink-2: oklch(0.76 0.005 95);
+    --line: oklch(0.275 0.005 95);
+    --edge: oklch(0.52 0.006 95);
+    --land: oklch(0.31 0.006 95);
+    --veil: oklch(0.1 0.005 95 / 0.6);
+    --shadow: 0 1px 2px oklch(0.1 0.005 95 / 0.4), 0 16px 40px -16px oklch(0.1 0.005 95 / 0.7);
+    color-scheme: dark;
+  }
+}
+/* The dark theme, and the one scene that is dark in either theme. */
+:root[data-theme='dark'],
+.animal {
+  --paper: oklch(0.165 0.005 95);
+  --wash: oklch(0.205 0.005 95);
+  --raised: oklch(0.225 0.005 95);
+  --ink: oklch(0.955 0.004 95);
+  --ink-2: oklch(0.76 0.005 95);
+  --line: oklch(0.275 0.005 95);
+  --edge: oklch(0.52 0.006 95);
+  --land: oklch(0.31 0.006 95);
+  --veil: oklch(0.1 0.005 95 / 0.6);
+  --shadow: 0 1px 2px oklch(0.1 0.005 95 / 0.4), 0 16px 40px -16px oklch(0.1 0.005 95 / 0.7);
+  color-scheme: dark;
+}
+
+/* Anything that belongs to a region carries its key, and with it the colour of its dot. */
+[data-region='americas'] {
+  --field: var(--americas);
+}
+[data-region='isles'] {
+  --field: var(--isles);
+}
+[data-region='europe'] {
+  --field: var(--europe);
+}
+[data-region='westasia'] {
+  --field: var(--westasia);
+}
+[data-region='east'] {
+  --field: var(--east);
+}
+[data-region='everywhere'] {
+  --field: var(--everywhere);
+}
+
+@layer base {
+  html {
+    overflow-x: clip;
+    scroll-padding-top: calc(var(--bar) + 1.5rem);
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  body {
+    overflow-x: clip;
+    min-height: 100dvh;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-style: normal;
+    font-weight: 560;
+    line-height: 1.04;
+    letter-spacing: -0.032em;
+    text-wrap: balance;
+    overflow-wrap: anywhere;
+    min-width: 0;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a {
+    color: inherit;
+  }
+  ::selection {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .wrap {
+    width: 100%;
+    max-width: var(--page);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .muted {
+    color: var(--ink-2);
+  }
+  .skip-link {
+    position: fixed;
+    left: var(--gutter);
+    top: 0.5rem;
+    z-index: 60;
+    padding: 0.5rem 1rem;
+    border-radius: var(--r-pill);
+    background: var(--ink);
+    color: var(--paper);
+    transform: translateY(-250%);
+  }
+  .skip-link:focus-visible {
+    transform: none;
+  }
+  .link {
+    text-decoration: underline;
+    text-decoration-color: var(--edge);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+    transition: text-decoration-color 140ms ease;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .link:hover {
+      text-decoration-color: currentcolor;
+    }
+  }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid var(--ink);
+    border-radius: var(--r-pill);
+    background: var(--ink);
+    color: var(--paper);
+    font-weight: 500;
+    font-size: 0.98rem;
+    line-height: 1.1;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      background-color 160ms ease,
+      border-color 160ms ease,
+      color 160ms ease,
+      transform 120ms var(--ease-out);
+  }
+  .btn--quiet {
+    border-color: var(--edge);
+    background: transparent;
+    color: var(--ink);
+  }
+  .btn--small {
+    padding-inline: 1rem;
+    font-size: 0.94rem;
+  }
+  .btn[aria-pressed='true'] {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .btn:active {
+    transform: scale(0.97);
+  }
+  .btn[disabled] {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .btn:not(.btn--quiet):hover {
+      background: color-mix(in oklab, var(--ink) 86%, var(--paper));
+    }
+    .btn--quiet:not([aria-pressed='true']):hover {
+      border-color: var(--ink);
+      background: var(--wash);
+    }
+  }
+  .iconbtn {
+    display: inline-grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: var(--r-pill);
+    cursor: pointer;
+    transition:
+      background-color 140ms ease,
+      transform 120ms var(--ease-out);
+  }
+  .iconbtn:active {
+    transform: scale(0.94);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .iconbtn:hover {
+      background: var(--wash);
+    }
+  }
+  .count {
+    display: inline-grid;
+    place-items: center;
+    min-width: 1.375rem;
+    height: 1.375rem;
+    padding-inline: 0.25rem;
+    border-radius: var(--r-pill);
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  /* ---------- The dot of a region ---------- */
+  .swatch {
+    flex: none;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    background: var(--field);
+    box-shadow: 0 0 0 1px color-mix(in oklab, var(--field) 70%, var(--ink));
+  }
+
+  /* ---------- Scenes: the page holds still while the wheel turns ----------
+     Only when scripts run, motion is welcome and the window is tall enough
+     to hold a scene (html.staged). Otherwise a scene is an ordinary section
+     showing its finished state. */
+  .scene {
+    position: relative;
+    --p: 1;
+  }
+  .scene__stage {
+    padding-top: var(--bar);
+  }
+  html.staged .scene {
+    height: calc(var(--span) * 100svh);
+  }
+  /* pinned under the bar, not behind it */
+  html.staged .scene__stage {
+    position: sticky;
+    top: var(--bar);
+    height: calc(100svh - var(--bar));
+    padding-top: 0;
+    overflow: clip;
+  }
+  /* Something that is on screen for part of a scene. --in and --out are
+     points along the scene; between them it is there, and outside them it is
+     moved off the page altogether so that it cannot be clicked unseen. */
+  html.staged .cue {
+    --t: clamp(0, calc((var(--p) - var(--in, -1)) / 0.045), 1);
+    --o: clamp(0, calc((var(--out, 2) - var(--p)) / 0.045), 1);
+    --shown: calc(var(--t) * var(--o));
+    opacity: var(--shown);
+    transform: translate3d(0, calc((1 - var(--t)) * 0.875rem), 0);
+    translate: calc((1 - clamp(0, calc(var(--shown) * 1000), 1)) * -200vw) 0;
+  }
+
+  /* ---------- Arriving: once, as a thing comes into view ---------- */
+  html.live [data-in] {
+    opacity: 0;
+    transform: translate3d(0, 0.875rem, 0);
+    transition:
+      opacity 620ms var(--ease-out),
+      transform 620ms var(--ease-out);
+  }
+  html.live [data-in].is-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* ---------- Sections and page heads ---------- */
+  .section {
+    padding-block: clamp(4rem, 9vw, 8rem);
+  }
+  .section h2 {
+    font-size: var(--t-h1);
+    max-width: 18ch;
+  }
+  .section__lede {
+    margin-top: 1rem;
+    max-width: 36rem;
+    font-size: var(--t-lede);
+    line-height: 1.45;
+    color: var(--ink-2);
+  }
+  .page-head {
+    padding-block: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 3vw, 2.5rem);
+  }
+  .page-head h1 {
+    font-size: var(--t-h1);
+    letter-spacing: -0.036em;
+  }
+  .page-head p {
+    margin-top: 1rem;
+    max-width: 36rem;
+    font-size: var(--t-lede);
+    line-height: 1.45;
+    color: var(--ink-2);
+  }
+  .page-foot {
+    height: clamp(3rem, 6vw, 5rem);
+  }
+  .crumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    color: var(--ink-2);
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 140ms ease;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .crumb:hover {
+      color: var(--ink);
+    }
+  }
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 2rem;
+  }
+
+  /* ---------- Small print ---------- */
+  .cite,
+  .by,
+  .credit {
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--ink-2);
+  }
+  .cite,
+  .credit {
+    margin-top: 0.75rem;
+  }
+  .by {
+    margin-top: 0.5rem;
+  }
+  .credit {
+    max-width: 36rem;
+  }
+
+  /* what a colour means, as one line */
+  .key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .key > li > * {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .key__n {
+    font-weight: 400;
+    color: var(--ink-2);
+  }
+
+  /* ---------- Forms ---------- */
+  .field {
+    display: grid;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+    color: var(--ink-2);
+  }
+  .input,
+  .select {
+    min-height: 2.75rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--edge);
+    border-radius: var(--r-pill);
+    background: var(--raised);
+    color: var(--ink);
+    font-size: 1rem;
+    transition: border-color 140ms ease;
+  }
+  .select {
+    padding-right: 2.5rem;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5l5-5' fill='none' stroke='%23808080' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 0.75rem;
+    cursor: pointer;
+  }
+  .input:focus-visible,
+  .select:focus-visible {
+    outline-offset: 1px;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .input:hover,
+    .select:hover {
+      border-color: var(--ink);
+    }
+  }
+  .check {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    cursor: pointer;
+  }
+  .check input {
+    width: 1.125rem;
+    height: 1.125rem;
+    accent-color: var(--ink);
+  }
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .tally {
+    margin-block: 1.5rem 1rem;
+    color: var(--ink-2);
+  }
+  .status {
+    min-height: 1lh;
+  }
+  .empty {
+    display: grid;
+    gap: 1rem;
+    justify-items: start;
+    max-width: 36rem;
+    padding: 2rem;
+    border-radius: var(--r-panel);
+    background: var(--wash);
+  }
+  .empty p {
+    color: var(--ink-2);
+  }
+}
+
+/* Opening a breed: its photograph grows from the tile into the page. */
+::view-transition-group(*) {
+  animation-duration: 420ms;
+  animation-timing-function: var(--ease-in-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+  .btn:active,
+  .iconbtn:active {
+    transform: none;
+  }
+}
+
+@media print {
+  .site-header,
+  .site-footer__links,
+  .finder,
+  .hero__actions,
+  .skip-link {
+    display: none;
+  }
+}

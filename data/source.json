@@ -1,0 +1,4492 @@
+{
+ "fetched": "2026-10-05",
+ "source": "https://api.thecatapi.com/v1",
+ "breeds": [
+  {
+   "id": "abys",
+   "name": "Abyssinian",
+   "origin": "Egypt",
+   "description": "Medium-sized, elegant cat with a distinctive ticked coat pattern giving a wild appearance. Known for its athletic build, almond-shaped eyes, and highly active, curious personality.",
+   "history": "One of the oldest known cat breeds, believed to have originated in the coastal regions of the Indian Ocean and Southeast Asia. The breed was developed in Great Britain from cats imported from Abyssinia (now Ethiopia) in the 1860s.",
+   "temperament": "Active, Energetic, Independent, Intelligent, Gentle, Curious, Playful",
+   "life_span": "14-17",
+   "weight": "3.6-5.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "KWdLHmOqc"
+  },
+  {
+   "id": "aege",
+   "name": "Aegean",
+   "origin": "Greece",
+   "description": "Medium-sized natural breed with a semi-longhaired coat, muscular build, and almond-shaped eyes. One of the oldest domesticated cat breeds, known for its love of water and fishing heritage.",
+   "history": "Native to the Greek islands known as the Cyclades in the Aegean Sea. These are natural cats that developed without selective breeding. Common in Greece but rare internationally. Considered one of the oldest domesticated cat breeds.",
+   "temperament": "Affectionate, Social, Intelligent, Playful, Active, Adaptable",
+   "life_span": "9-12",
+   "weight": "4-5.4",
+   "height": "23-28",
+   "breed_group": "Semi-longhair",
+   "reference_image_id": "h19-vtIeX"
+  },
+  {
+   "id": "abob",
+   "name": "American Bobtail",
+   "origin": "United States",
+   "description": "Medium to large cat with a distinctive naturally short tail, wild appearance, and athletic build. Known for its dog-like personality and exceptional intelligence.",
+   "history": "Developed naturally in the United States starting in the 1960s. The breed originated from a short-tailed tabby kitten found in Arizona. Bred to maintain the wild appearance while ensuring a friendly, interactive temperament.",
+   "temperament": "Intelligent, Interactive, Lively, Playful, Sensitive, Devoted",
+   "life_span": "11-15",
+   "weight": "5.4-7.3",
+   "height": "28-36",
+   "breed_group": "Short/Medium-hair",
+   "reference_image_id": "8r4M61iyS"
+  },
+  {
+   "id": "acur",
+   "name": "American Curl",
+   "origin": "United States",
+   "description": "Medium-sized cat with distinctive backward-curling ears, elegant body, and silky coat. Known for its kitten-like personality that persists into adulthood.",
+   "history": "Originated in 1981 in Lakewood, California, when a stray black kitten with unusual curled ears was found. The curl is caused by a dominant gene. Recognized by major cat registries and known for maintaining a kitten-like personality throughout life.",
+   "temperament": "Affectionate, Curious, Intelligent, Interactive, Lively, Playful, Social",
+   "life_span": "12-16",
+   "weight": "3.2-5",
+   "height": "23-30",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "ZZmFRKWZZ"
+  },
+  {
+   "id": "amer",
+   "name": "American Ringtail",
+   "origin": "United States",
+   "description": "Medium-sized cat with distinctive curled tail that curls over the back. Natural mutation first observed in California.",
+   "history": "Developed from a natural mutation first observed in a feral kitten named Solomon in Fremont, California in 1998. The curled tail is carried over the back but is not fused. Experimental breed.",
+   "temperament": "Friendly, Affectionate, Intelligent, Active, Playful",
+   "life_span": "12-18",
+   "weight": "3.2-6.8",
+   "height": "23-30",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": null
+  },
+  {
+   "id": "asho",
+   "name": "American Shorthair",
+   "origin": "United States",
+   "description": "Medium to large muscular cat with a round face, short dense coat, and powerful build. Known for its easy-going temperament and exceptional hunting abilities.",
+   "history": "Descended from cats brought to North America by European settlers to protect cargo from rats. One of the first five breeds recognized by the CFA. Originally called the Domestic Shorthair, renamed in 1966 to distinguish from random-bred cats.",
+   "temperament": "Active, Curious, Easy Going, Playful, Calm, Adaptable",
+   "life_span": "15-20",
+   "weight": "5-6.8",
+   "height": "28-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "MuEGe1-Sz"
+  },
+  {
+   "id": "awir",
+   "name": "American Wirehair",
+   "origin": "United States",
+   "description": "Medium to large cat with a unique crimped, wiry coat that feels springy to the touch. Similar build to American Shorthair but with distinctive coat texture.",
+   "history": "Originated in 1966 from a spontaneous mutation in a litter of barn cats in Verona, New York. The unique wiry coat is caused by a dominant gene. Related to the American Shorthair but distinguished by its distinctive crimped coat.",
+   "temperament": "Affectionate, Curious, Gentle, Intelligent, Interactive, Lively, Loyal, Playful, Sensible, Social",
+   "life_span": "14-18",
+   "weight": "3.6-6.8",
+   "height": "28-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "bTo6m3PVg"
+  },
+  {
+   "id": "aphr",
+   "name": "Aphrodite Giant",
+   "origin": "Cyprus",
+   "description": "Large natural breed from Cyprus with muscular build. One of the largest natural cat breeds.",
+   "history": "Large natural breed from the mountains of Cyprus. Related to the Cyprus cat but specifically bred for large size. Recognized by WCF. One of the largest natural cat breeds in the world.",
+   "temperament": "Gentle, Affectionate, Intelligent, Active, Social",
+   "life_span": "12-15",
+   "weight": "6.8-10.9",
+   "height": "36-46",
+   "breed_group": "Short/Semi-long",
+   "reference_image_id": null
+  },
+  {
+   "id": "amau",
+   "name": "Arabian Mau",
+   "origin": "United Arab Emirates",
+   "description": "Medium to large, muscular cat with a natural, athletic build adapted to desert conditions. Known for excellent health and survival instincts.",
+   "history": "Natural breed that developed on the Arabian Peninsula over thousands of years. Adapted to desert conditions with excellent survival skills. Recently recognized as a formal breed but has existed as a natural landrace for centuries.",
+   "temperament": "Affectionate, Agile, Curious, Independent, Playful, Loyal, Active",
+   "life_span": "12-14",
+   "weight": "4-7.3",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "zlpgGWqN7"
+  },
+  {
+   "id": "asia",
+   "name": "Asian Semi-longhair",
+   "origin": "United Kingdom",
+   "description": "Medium-sized elegant cat with a semi-long silky coat and graceful appearance. Related to the Burmese with a longer coat.",
+   "history": "Developed in the UK as a longhaired version of the Asian cat group, which includes the Burmese. Also known as the Tiffanie. Created through Burmese breeding programs in the 1980s.",
+   "temperament": "Active, Curious, Gentle, Affectionate, Social",
+   "life_span": "12-15",
+   "weight": "3.6-6.4",
+   "height": "23-28",
+   "breed_group": "Semi-longhair",
+   "reference_image_id": null
+  },
+  {
+   "id": "amis",
+   "name": "Australian Mist",
+   "origin": "Australia",
+   "description": "Medium-sized spotted or marbled cat with a misty appearance to its coat. Developed specifically as an indoor companion cat.",
+   "history": "Developed in Australia starting in 1976 by Dr. Truda Straede. Created by crossing Burmese, Abyssinian, and domestic shorthairs. Originally called Spotted Mist, renamed Australian Mist in 1998.",
+   "temperament": "Lively, Social, Fun-loving, Relaxed, Affectionate, Tolerant",
+   "life_span": "12-16",
+   "weight": "3.6-6.8",
+   "height": "23-28",
+   "breed_group": "Short-haired",
+   "reference_image_id": "zTiuUpmqf"
+  },
+  {
+   "id": "bali",
+   "name": "Balinese",
+   "origin": "United States",
+   "description": "Elegant, svelte cat with long silky coat and striking blue eyes. Essentially a longhaired Siamese with the same pointed coloration and athletic build.",
+   "history": "Developed from longhaired kittens that appeared in Siamese litters. Formally bred starting in the 1940s-50s. Named for the graceful dancers of Bali, though the breed has no connection to Indonesia.",
+   "temperament": "Affectionate, Intelligent, Playful, Active, Social, Curious",
+   "life_span": "12-20",
+   "weight": "2.7-5",
+   "height": "23-28",
+   "breed_group": "Long-haired",
+   "reference_image_id": "obRjvWv-e"
+  },
+  {
+   "id": "bamb",
+   "name": "Bambino",
+   "origin": "United States",
+   "description": "Small, hairless cat with short legs combining Sphynx and Munchkin traits. Has large upright ears and wrinkled skin typical of hairless breeds.",
+   "history": "Created in the early 2000s by crossing Sphynx and Munchkin cats. The name means 'baby' in Italian, referring to their small size. Considered an experimental breed by TICA.",
+   "temperament": "Affectionate, Lively, Friendly, Intelligent, Social, Playful",
+   "life_span": "12-14",
+   "weight": "2.3-4",
+   "height": "15-20",
+   "breed_group": "Hairless",
+   "reference_image_id": "Oaoo1ky3A"
+  },
+  {
+   "id": "beng",
+   "name": "Bengal",
+   "origin": "United States",
+   "description": "Medium to large, muscular cat with a distinctive wild appearance featuring spotted or marbled coat patterns. Highly athletic and intelligent with an exotic look.",
+   "history": "Developed by crossing domestic cats with the Asian leopard cat starting in the 1960s-70s by Jean Mill. Named after the leopard cat's scientific name (Prionailurus bengalensis). Recognized by TICA in 1983.",
+   "temperament": "Alert, Agile, Energetic, Demanding, Intelligent, Curious, Playful",
+   "life_span": "12-16",
+   "weight": "4.5-8.2",
+   "height": "33-41",
+   "breed_group": "Short-haired",
+   "reference_image_id": "dN6eoeLjY"
+  },
+  {
+   "id": "birm",
+   "name": "Birman",
+   "origin": "France",
+   "description": "Medium to large, colorpointed cat with long silky coat, white gloved paws, and striking blue eyes. Known for its gentle, docile temperament.",
+   "history": "Legend says they were temple cats in Burma (Myanmar). The breed as known today was developed in France in the early 1900s. Nearly extinct after WWII but carefully rebuilt. Known as the Sacred Cat of Burma.",
+   "temperament": "Affectionate, Active, Gentle, Social, Quiet, Loyal",
+   "life_span": "12-16",
+   "weight": "4.5-6.8",
+   "height": "25-30",
+   "breed_group": "Long-haired",
+   "reference_image_id": "ln1Ks7VIu"
+  },
+  {
+   "id": "bomb",
+   "name": "Bombay",
+   "origin": "United States",
+   "description": "Medium-sized, muscular jet-black cat with striking copper or gold eyes. Bred to resemble a miniature black panther with a sleek, patent-leather coat.",
+   "history": "Created in the 1950s by breeder Nikki Horner in Louisville, Kentucky, by crossing black American Shorthairs with sable Burmese. Goal was to create a cat resembling a miniature black panther.",
+   "temperament": "Affectionate, Dependent, Gentle, Intelligent, Playful, Social",
+   "life_span": "12-18",
+   "weight": "3.6-6.8",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "BkksyH95Z"
+  },
+  {
+   "id": "braz",
+   "name": "Brazilian Shorthair",
+   "origin": "Brazil",
+   "description": "Medium-sized, elegant cat with a muscular build and short, close-lying coat. Brazil's only internationally recognized cat breed.",
+   "history": "Natural breed that developed from street cats in Brazil. First purebred cat native to Brazil, recognized by the World Cat Federation in 1998. Developed over 500 years from cats brought by European colonizers.",
+   "temperament": "Active, Playful, Intelligent, Affectionate, Social",
+   "life_span": "14-20",
+   "weight": "3.6-8.2",
+   "height": "23-28",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "bslo",
+   "name": "British Longhair",
+   "origin": "United Kingdom",
+   "description": "Large, round cat with plush long coat and characteristic cobby body. The longhaired version of the British Shorthair with the same gentle personality.",
+   "history": "Developed naturally from longhaired kittens appearing in British Shorthair litters. The longhaired gene came from Persian outcrosses used to rebuild the breed after WWII. Recognized as a separate breed by some registries.",
+   "temperament": "Affectionate, Easy Going, Independent, Intelligent, Loyal, Social, Calm",
+   "life_span": "12-15",
+   "weight": "5.4-8.2",
+   "height": "30-38",
+   "breed_group": "Long-haired",
+   "reference_image_id": "re7uO34hz"
+  },
+  {
+   "id": "bsho",
+   "name": "British Shorthair",
+   "origin": "United Kingdom",
+   "description": "Large, round, cobby cat with dense plush coat and characteristic chubby cheeks. Known for its calm, easy-going temperament and teddy bear appearance.",
+   "history": "One of the oldest English cat breeds, descended from cats brought by Romans. Nearly extinct after WWII but rebuilt using Persian crosses. The British Blue is the most famous color variety.",
+   "temperament": "Affectionate, Easy Going, Gentle, Loyal, Patient, Calm, Independent",
+   "life_span": "12-17",
+   "weight": "5.4-9.1",
+   "height": "30-38",
+   "breed_group": "Short-haired",
+   "reference_image_id": "HYTJQgs2M"
+  },
+  {
+   "id": "brit",
+   "name": "British Tipped",
+   "origin": "United Kingdom",
+   "description": "Medium to large cat with British type and tipped/shaded coat pattern. Elegant variety of British cats.",
+   "history": "Developed from British Shorthairs with Chinchilla Persian influence. Features tipped or shaded coat pattern on British body type. Recognized variety within British breed standard.",
+   "temperament": "Affectionate, Easy Going, Gentle, Calm, Loyal, Independent",
+   "life_span": "12-17",
+   "weight": "5.4-8.2",
+   "height": "30-38",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "bure",
+   "name": "Burmese",
+   "origin": "Myanmar (Burma)",
+   "description": "Medium-sized, muscular cat with a compact body, rounded head, and expressive golden eyes. Known for its dog-like personality and love of human companionship.",
+   "history": "Modern Burmese descended from Wong Mau, a cat brought from Burma to the US in 1930. Developed by breeding with Siamese. Two distinct varieties exist: American (more compact) and European (more moderate).",
+   "temperament": "Curious, Intelligent, Gentle, Social, Interactive, Playful, Lively, Affectionate",
+   "life_span": "15-18",
+   "weight": "3.6-6.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "92D9NZLs0"
+  },
+  {
+   "id": "buri",
+   "name": "Burmilla",
+   "origin": "United Kingdom",
+   "description": "Medium-sized elegant cat with a sparkling silver-shaded or tipped coat. Combines Burmese personality with Chinchilla Persian coloring.",
+   "history": "Created accidentally in 1981 in the UK when a Chinchilla Persian escaped and mated with a lilac Burmese. The resulting kittens were so attractive that a breeding program was established.",
+   "temperament": "Easy Going, Friendly, Intelligent, Lively, Playful, Social, Affectionate",
+   "life_span": "10-15",
+   "weight": "3.6-6.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "J4Jv10E7O"
+  },
+  {
+   "id": "burm",
+   "name": "Burmoir",
+   "origin": "United Kingdom",
+   "description": "Medium-sized elegant cat combining Burmese type with silver coloring. Rare variety.",
+   "history": "Developed as a silver version of the Burmese type cat. Part of the Asian group. Combines Burmese personality with silver tabby pattern. Rare outside UK.",
+   "temperament": "Affectionate, Playful, Social, Intelligent, Active",
+   "life_span": "12-15",
+   "weight": "3.6-6.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "cspa",
+   "name": "California Spangled",
+   "origin": "United States",
+   "description": "Medium to large spotted cat bred to resemble wild cats. Athletic build with a low-slung, hunting-cat movement.",
+   "history": "Created in the 1980s by Paul Casey to raise awareness about wild cat conservation. Bred from various domestic breeds including Abyssinian, British Shorthair, and others without wild cat genetics. Very rare today.",
+   "temperament": "Affectionate, Curious, Intelligent, Loyal, Social, Active, Athletic",
+   "life_span": "10-14",
+   "weight": "3.6-6.8",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "B1ERTmgph"
+  },
+  {
+   "id": "cara",
+   "name": "Caracat",
+   "origin": null,
+   "description": "Large hybrid between caracal and domestic cat. Extremely rare and controversial.,16-22,41-56,14-20,36-51,20-30,9.1-13.6,15-25,6.8-11.3,15-20",
+   "history": null,
+   "temperament": "Minimal grooming needed",
+   "life_span": "1",
+   "weight": "May not be safe with dogs",
+   "height": "Requires experienced exotic owners only. Not suitable for typical families.",
+   "breed_group": null,
+   "reference_image_id": null
+  },
+  {
+   "id": "ctif",
+   "name": "Chantilly-Tiffany",
+   "origin": "United States",
+   "description": "Medium-sized semi-longhaired cat with a silky chocolate or other colored coat and golden eyes. Known for its devoted, affectionate nature.",
+   "history": "Originated in the 1960s from chocolate-colored cats of unknown origin. Confused with the British Tiffanie/Asian Semi-longhair. Very rare breed that has experienced near-extinction multiple times.",
+   "temperament": "Affectionate, Demanding, Interactive, Loyal, Devoted, Sweet",
+   "life_span": "14-16",
+   "weight": "3.6-5.4",
+   "height": "23-28",
+   "breed_group": "Semi-longhair",
+   "reference_image_id": "TR-5nAd_S"
+  },
+  {
+   "id": "char",
+   "name": "Chartreux",
+   "origin": "France",
+   "description": "Medium to large, muscular cat with distinctive blue-gray woolly coat and copper or orange eyes. Known for its quiet, observant nature and sweet smile.",
+   "history": "Ancient French breed possibly dating to medieval times. Legend says they were bred by Carthusian monks. Nearly extinct after WWII but carefully rebuilt. National cat of France.",
+   "temperament": "Affectionate, Loyal, Intelligent, Social, Lively, Playful, Calm, Observant",
+   "life_span": "12-15",
+   "weight": "5.4-7.3",
+   "height": "28-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "3-DZDkDGa"
+  },
+  {
+   "id": "chau",
+   "name": "Chausie",
+   "origin": "Egypt/United States",
+   "description": "Large, athletic hybrid cat with a wild appearance derived from jungle cat ancestry. Long-legged and muscular with tufted ears.",
+   "history": "Created by crossing jungle cats (Felis chaus) with domestic cats. Development began in the 1960s-70s. Name derived from the jungle cat's Latin name. Requires experienced owners.",
+   "temperament": "Affectionate, Intelligent, Playful, Social, Active, Athletic, Loyal",
+   "life_span": "12-14",
+   "weight": "6.8-11.3",
+   "height": "36-46",
+   "breed_group": "Hybrid",
+   "reference_image_id": "snxE5_PPX"
+  },
+  {
+   "id": "chas",
+   "name": "Chausie",
+   "origin": "Egypt/United States",
+   "description": "Large, athletic hybrid cat with wild appearance derived from jungle cat ancestry. Long-legged and muscular with tufted ears.",
+   "history": "Created by crossing jungle cats (Felis chaus) with domestic cats. Development began in 1960s-70s. Name from jungle cat's Latin name. Requires experienced owners.",
+   "temperament": "Affectionate, Intelligent, Playful, Social, Active, Athletic, Loyal",
+   "life_span": "12-14",
+   "weight": "6.8-11.3",
+   "height": "36-46",
+   "breed_group": "Hybrid",
+   "reference_image_id": null
+  },
+  {
+   "id": "chee",
+   "name": "Cheetoh",
+   "origin": "United States",
+   "description": "Large spotted cat combining Bengal and Ocicat heritage. Athletic build with wild appearance but gentle domestic personality.",
+   "history": "Developed in the early 2000s by crossing Bengals with Ocicats. Goal was to create a large, gentle spotted cat with wild appearance. Registered with TICA as an experimental breed.",
+   "temperament": "Affectionate, Gentle, Intelligent, Social, Friendly, Playful",
+   "life_span": "12-14",
+   "weight": "6.8-10.4",
+   "height": "30-41",
+   "breed_group": "Short-haired",
+   "reference_image_id": "L-aDi29wP"
+  },
+  {
+   "id": "csho",
+   "name": "Colorpoint Shorthair",
+   "origin": "United States",
+   "description": "Medium-sized, elegant cat with Siamese body type and pointed pattern in non-traditional colors like red, cream, and tortie points.",
+   "history": "Developed in the 1940s-50s by crossing Siamese with red and cream American Shorthairs to introduce new point colors. Considered a Siamese variant by some registries, separate breed by CFA.",
+   "temperament": "Affectionate, Intelligent, Playful, Social, Active, Sensitive",
+   "life_span": "12-16",
+   "weight": "2.3-4.5",
+   "height": "23-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "lOl0J96On"
+  },
+  {
+   "id": "crex",
+   "name": "Cornish Rex",
+   "origin": "United Kingdom",
+   "description": "Medium-sized, elegant cat with distinctive wavy coat, long legs, and arched back. Known for its playful, kitten-like personality throughout life.",
+   "history": "Originated in Cornwall, England in 1950 from a spontaneous mutation in a barn cat litter. The wavy coat is caused by a recessive gene. Named after Rex rabbits with similar wavy fur.",
+   "temperament": "Affectionate, Intelligent, Active, Curious, Playful, Social",
+   "life_span": "11-15",
+   "weight": "2.7-4.5",
+   "height": "25-30",
+   "breed_group": "Rex",
+   "reference_image_id": "o81wWm6-Z"
+  },
+  {
+   "id": "cymr",
+   "name": "Cymric",
+   "origin": "Isle of Man/Canada",
+   "description": "Medium-sized longhaired tailless cat, the longhaired version of the Manx. Round body with powerful hindquarters.",
+   "history": "Longhaired kittens have always appeared in Manx litters. Recognized as a separate breed in the 1960s-70s. Named after Cymru, the Welsh name for Wales. Same tailless mutation as Manx.",
+   "temperament": "Gentle, Loyal, Intelligent, Playful, Devoted",
+   "life_span": "8-14",
+   "weight": "3.6-5.9",
+   "height": "25-30",
+   "breed_group": "Long-haired",
+   "reference_image_id": "GQ61BDToD"
+  },
+  {
+   "id": "cypr",
+   "name": "Cyprus",
+   "origin": "Cyprus",
+   "description": "Medium-sized natural breed with athletic build. One of the oldest cat breeds, native to Cyprus island.",
+   "history": "One of the oldest natural cat breeds, present on Cyprus for thousands of years. Archaeological evidence shows cats on Cyprus 9,500 years ago. Possibly one of the first domesticated cat populations.",
+   "temperament": "Affectionate, Social, Loyal, Curious, Playful",
+   "life_span": "12-15",
+   "weight": "3.6-7.3",
+   "height": "25-30",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "S97Qj5YYO"
+  },
+  {
+   "id": "drex",
+   "name": "Devon Rex",
+   "origin": "United Kingdom",
+   "description": "Small to medium cat with distinctive wavy coat, large ears, and pixie-like face. Known for its mischievous, dog-like personality.",
+   "history": "Originated in Devon, England in 1960 from a curly-coated feral cat. Different mutation from Cornish Rex despite similar appearance. Known as the 'pixie cat' for its elfin features.",
+   "temperament": "Highly interactive, Mischievous, Loyal, Social, Playful, Affectionate",
+   "life_span": "10-15",
+   "weight": "2.3-4.5",
+   "height": "25-30",
+   "breed_group": "Rex",
+   "reference_image_id": "lJHXU7DlQ"
+  },
+  {
+   "id": "doml",
+   "name": "Domestic Longhair",
+   "origin": "Worldwide",
+   "description": "Mixed-breed cat of no specific pedigree with long coat. Common companion cat worldwide.",
+   "history": "Not a breed but the common name for mixed-heritage cats with long coats. Hardy companions with diverse appearances and temperaments. Require more grooming than shorthaired counterparts.",
+   "temperament": "Varies widely - typically Friendly, Adaptable, Intelligent, Playful",
+   "life_span": "12-20",
+   "weight": "3.6-6.8",
+   "height": "20-36",
+   "breed_group": "Long-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "domm",
+   "name": "Domestic Mediumhair",
+   "origin": "Worldwide",
+   "description": "Mixed-breed cat of no specific pedigree with medium-length coat. Common companion worldwide.",
+   "history": "Not a breed but the common name for mixed-heritage cats with medium-length coats. Falls between Domestic Shorthair and Longhair in coat length and grooming needs.",
+   "temperament": "Varies widely - typically Friendly, Adaptable, Intelligent, Playful",
+   "life_span": "12-20",
+   "weight": "3.6-6.8",
+   "height": "20-36",
+   "breed_group": "Medium-hair",
+   "reference_image_id": null
+  },
+  {
+   "id": "doms",
+   "name": "Domestic Shorthair",
+   "origin": "Worldwide",
+   "description": "Mixed-breed cat of no specific pedigree with short coat. The most common cat in the world.",
+   "history": "Not a breed but the common name for mixed-heritage cats with short coats. Also called moggies or house cats. Represent the vast majority of cats worldwide. Hardy and diverse.",
+   "temperament": "Varies widely - typically Friendly, Adaptable, Intelligent, Playful",
+   "life_span": "12-20",
+   "weight": "3.6-6.8",
+   "height": "20-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "dons",
+   "name": "Donskoy",
+   "origin": "Russia",
+   "description": "Medium-sized hairless or partially hairless cat with wrinkled skin, long ears, and almond-shaped eyes. Russian origin hairless breed.",
+   "history": "Discovered in 1987 in Rostov-on-Don, Russia. Unlike the Sphynx, the Donskoy hairlessness is caused by a dominant gene. Also called Don Sphynx. Recognized by TICA.",
+   "temperament": "Playful, Affectionate, Loyal, Social, Intelligent, Gentle",
+   "life_span": "12-15",
+   "weight": "3.2-6.8",
+   "height": "25-30",
+   "breed_group": "Hairless",
+   "reference_image_id": "Z9zxhFVdw"
+  },
+  {
+   "id": "lihu",
+   "name": "Dragon Li",
+   "origin": "China",
+   "description": "Medium to large muscular cat with distinctive golden-brown tabby coat. Ancient Chinese natural breed also known as Chinese Li Hua.",
+   "history": "One of the oldest natural cat breeds, native to China. Self-domesticated from Chinese mountain cats. Highly valued as mousers. Only recently recognized internationally by CFA in 2010.",
+   "temperament": "Intelligent, Friendly, Gentle, Loving, Loyal, Independent",
+   "life_span": "12-15",
+   "weight": "4-5.4",
+   "height": "28-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "KrDYENsA3"
+  },
+  {
+   "id": "dwel",
+   "name": "Dwelf",
+   "origin": null,
+   "description": "Small, hairless cat with curled ears and short legs. Triple hybrid combining Sphynx, Munchkin, and American Curl.,6-9,15-23,5-8,13-20,4-9,1.8-4,3-7,1.4-3.2,12-15",
+   "history": null,
+   "temperament": "Regular skin care - bathing and moisturizing needed",
+   "life_span": "5",
+   "weight": "Good with dogs, social nature",
+   "height": "Good with families, loves attention and interaction.",
+   "breed_group": null,
+   "reference_image_id": null
+  },
+  {
+   "id": "emau",
+   "name": "Egyptian Mau",
+   "origin": "Egypt",
+   "description": "Medium-sized, muscular spotted cat with distinctive gooseberry-green eyes. One of the few naturally spotted domestic cat breeds.",
+   "history": "One of the oldest domestic cat breeds, possibly descended from ancient Egyptian cats. The only naturally spotted domestic breed. Name 'Mau' is the Egyptian word for cat.",
+   "temperament": "Agile, Dependent, Gentle, Intelligent, Lively, Loyal, Playful, Devoted",
+   "life_span": "13-16",
+   "weight": "3.6-6.4",
+   "height": "25-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "4_AdeyZUv"
+  },
+  {
+   "id": "elfc",
+   "name": "Elf Cat",
+   "origin": null,
+   "description": "Medium-sized hairless cat with distinctive curled ears. Combines Sphynx and American Curl traits.,9-12,23-30,8-10,20-25,10-15,4.5-6.8,8-12,3.6-5.4,12-15",
+   "history": null,
+   "temperament": "Regular skin care - weekly bathing to remove oils",
+   "life_span": "5",
+   "weight": "Good with dogs, social nature",
+   "height": "Good with families, loves attention and cuddling.",
+   "breed_group": null,
+   "reference_image_id": null
+  },
+  {
+   "id": "ebur",
+   "name": "European Burmese",
+   "origin": "Myanmar (Burma)",
+   "description": "Medium-sized elegant cat with slightly more moderate features than American Burmese. Sweet expression and silky coat.",
+   "history": "Derived from same Wong Mau cat as American Burmese but developed differently in Europe. European standard is more moderate than American. Recognized as separate breed by some registries.",
+   "temperament": "Sweet, Affectionate, Loyal, Intelligent, Playful, Social",
+   "life_span": "10-15",
+   "weight": "3.2-6.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "YOjBThApG"
+  },
+  {
+   "id": "eshr",
+   "name": "European Shorthair",
+   "origin": "Sweden / Italy / Europe",
+   "description": "A medium-sized, muscular cat breed native to Europe, known for its sweet temperament, strong hunting instincts, and a short, dense, weather-resistant coat.",
+   "history": "Developed in Europe to preserve the traditional landrace house cats of the continent. Formally recognized as a distinct breed by FIFe in 1982, though its ancestors have lived in Europe for thousands of years.",
+   "temperament": "Sweet, Active, Intelligent, Friendly, Calm, Adaptable",
+   "life_span": "15-20",
+   "weight": "4.5-6.8",
+   "height": "28-33",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "exlh",
+   "name": "Exotic Longhair",
+   "origin": "United States",
+   "description": "A medium to large cat breed that shares the round head, sweet expression, and cobby body of the Persian and Exotic Shorthair, but features a long, plush, and dense coat.",
+   "history": "Bred as the longhaired variety arising from Exotic Shorthair lines (which contain Persian ancestry). Sometimes registered simply as Persians or as a distinct breed variant depending on the cat registry.",
+   "temperament": "Affectionate, Sweet, Quiet, Peaceful, Gentle, Calm",
+   "life_span": "12-15",
+   "weight": "4.5-6.8",
+   "height": "25-33",
+   "breed_group": "Long-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "esho",
+   "name": "Exotic Shorthair",
+   "origin": "United States",
+   "description": "Medium to large, cobby cat with Persian features but short, plush coat. Known as the 'lazy man's Persian' for easier grooming needs.",
+   "history": "Developed in the 1950s-60s by crossing Persians with American Shorthairs to create a short-coated version of the Persian. Has the Persian's sweet face but with easier coat maintenance.",
+   "temperament": "Affectionate, Sweet, Loyal, Quiet, Peaceful, Gentle, Calm",
+   "life_span": "12-15",
+   "weight": "4.5-6.8",
+   "height": "25-33",
+   "breed_group": "Short-haired",
+   "reference_image_id": "ySzdVwyb1"
+  },
+  {
+   "id": "fold",
+   "name": "Foldex",
+   "origin": "Canada",
+   "description": "Small to medium cat with round face, folded ears, and short plush coat. Combines Scottish Fold and Exotic Shorthair traits.",
+   "history": "Developed in Quebec, Canada by crossing Scottish Folds with Exotic Shorthairs. Combines folded ears with Persian-type face. Recognized by Canadian Cat Association. Sometimes called Exotic Fold.",
+   "temperament": "Sweet, Affectionate, Playful, Gentle, Calm, Social",
+   "life_span": "12-15",
+   "weight": "2.7-6.4",
+   "height": "23-28",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "gene",
+   "name": "Genetta",
+   "origin": "United States",
+   "description": "Small, short-legged spotted cat bred to resemble the African Genet. Combines Munchkin and spotted breeds.",
+   "history": "Developed by crossing Munchkins with Bengals and sometimes Ocicats and Savannahs to create a spotted, short-legged cat resembling the African Genet. Experimental breed not widely recognized.",
+   "temperament": "Playful, Intelligent, Active, Affectionate, Curious, Friendly",
+   "life_span": "12-15",
+   "weight": "2.3-4",
+   "height": "18-25",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "germ",
+   "name": "German Rex",
+   "origin": "Germany",
+   "description": "Medium-sized cat with wavy coat similar to other Rex breeds. Slender build with large ears.",
+   "history": "First documented in the 1930s in Germany, predating the Cornish Rex. The first known Rex cat, Munk, was born in 1930. Different mutation from Cornish and Devon Rex. Rare breed today.",
+   "temperament": "Friendly, Intelligent, Playful, Affectionate, Active",
+   "life_span": "12-15",
+   "weight": "2.7-4.5",
+   "height": "23-28",
+   "breed_group": "Rex",
+   "reference_image_id": null
+  },
+  {
+   "id": "hbro",
+   "name": "Havana Brown",
+   "origin": "United Kingdom",
+   "description": "Medium-sized, elegant chocolate-brown cat with distinctive corn-cob shaped muzzle and green eyes. Known for its rich mahogany coat.",
+   "history": "Developed in England in the 1950s by crossing Siamese with black domestic shorthairs and Russian Blues. Named for its cigar-brown color resembling Havana tobacco or possibly Havana rabbits.",
+   "temperament": "Affectionate, Curious, Demanding, Friendly, Intelligent, Playful",
+   "life_span": "12-15",
+   "weight": "3.6-5.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "gQggWSR5I"
+  },
+  {
+   "id": "high",
+   "name": "Highlander",
+   "origin": "United States",
+   "description": "Medium to large muscular cat with curled ears and often a bobbed tail. Unique wild appearance with gentle personality.",
+   "history": "Developed starting in 2004 by crossing Desert Lynx and Jungle Curl cats. Originally called Highland Lynx. TICA recognized breed with distinctive curled ears and often bobtail.",
+   "temperament": "Affectionate, Gentle, Social, Playful, Confident, Loving",
+   "life_span": "10-15",
+   "weight": "4.5-9.1",
+   "height": "30-41",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": null
+  },
+  {
+   "id": "hima",
+   "name": "Himalayan",
+   "origin": "United States",
+   "description": "Medium to large, cobby cat with Persian body type and Siamese colorpoint pattern. Long luxurious coat and blue eyes.",
+   "history": "Created in the 1930s by crossing Persians with Siamese to combine Persian body type with Siamese colorpoints. Considered a variety of Persian by some registries. Popular companion breed.",
+   "temperament": "Dependent, Gentle, Intelligent, Quiet, Social, Sweet, Calm",
+   "life_span": "9-15",
+   "weight": "4-6.4",
+   "height": "25-33",
+   "breed_group": "Long-haired",
+   "reference_image_id": "KBjPMWOsK"
+  },
+  {
+   "id": "jbob",
+   "name": "Japanese Bobtail",
+   "origin": "Japan",
+   "description": "Medium-sized cat with distinctive pom-pom tail and elegant, slender build. Traditional Japanese breed.",
+   "history": "Ancient breed depicted in Japanese art for over 1,000 years. Symbol of good luck - the famous 'beckoning cat' (Maneki-neko) figurine is based on this breed. Mi-ke (tri-color) is the most prized pattern.",
+   "temperament": "Active, Agile, Clever, Easy Going, Intelligent, Lively, Loyal, Playful, Social",
+   "life_span": "14-16",
+   "weight": "2.7-4.5",
+   "height": "25-30",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "Sw_EWWLW-"
+  },
+  {
+   "id": "java",
+   "name": "Javanese",
+   "origin": "United States",
+   "description": "Medium-sized, elegant longhaired cat with Siamese body type. Comes in colorpoint patterns not found in Balinese.",
+   "history": "Developed from Balinese cats with non-traditional point colors. Considered same breed as Balinese by some registries. Named after the island of Java, though unrelated to Indonesia.",
+   "temperament": "Active, Devoted, Intelligent, Playful, Affectionate",
+   "life_span": "10-15",
+   "weight": "2.3-4.5",
+   "height": "23-28",
+   "breed_group": "Long-haired",
+   "reference_image_id": "BTiGuPOqW"
+  },
+  {
+   "id": "kana",
+   "name": "Kanaani",
+   "origin": "Israel",
+   "description": "Medium to large spotted cat derived from African wildcat and domestic breeds. Wild appearance with domestic temperament.",
+   "history": "Developed in Israel by crossing African wildcats with domestic cats and spotted Orientals. Goal was to create a spotted cat with wild appearance and domestic temperament. Recognized by WCF.",
+   "temperament": "Active, Independent, Intelligent, Athletic, Affectionate",
+   "life_span": "12-15",
+   "weight": "4.5-7.3",
+   "height": "30-38",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "kell",
+   "name": "Kellas Cat",
+   "origin": null,
+   "description": "Large, melanistic wild-domestic hybrid found in Scotland. Not a true domestic breed.,14-18,36-46,12-16,30-41,8-15,3.6-6.8,6-12,2.7-5.4,Unknown",
+   "history": null,
+   "temperament": "Not applicable - wild animal",
+   "life_span": "1",
+   "weight": "Not appropriate with dogs",
+   "height": "Not appropriate as a pet. Wild hybrid.",
+   "breed_group": null,
+   "reference_image_id": null
+  },
+  {
+   "id": "khao",
+   "name": "Khao Manee",
+   "origin": "Thailand",
+   "description": "Medium-sized, muscular white cat with striking blue, gold, or odd-colored eyes. Ancient Thai royal cat.",
+   "history": "Ancient Thai breed, kept by royalty for centuries. Name means 'white gem' in Thai. Also called Diamond Eye cat. Recently introduced to the West and recognized by TICA.",
+   "temperament": "Calm, Relaxed, Talkative, Playful, Warm, Intelligent, Social",
+   "life_span": "10-12",
+   "weight": "3.6-5.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "iyFN2mF8l"
+  },
+  {
+   "id": "kora",
+   "name": "Korat",
+   "origin": "Thailand",
+   "description": "Medium-sized, muscular cat with distinctive blue-gray coat and heart-shaped face. Ancient Thai breed known as good luck symbol.",
+   "history": "Ancient Thai breed, one of the oldest and most treasured. Traditionally given as wedding gifts for good luck. Name comes from the Korat province in Thailand. First exported to the West in 1959.",
+   "temperament": "Active, Loyal, Highly intelligent, Expressive, Trainable, Affectionate",
+   "life_span": "10-15",
+   "weight": "2.7-5",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "1TcC-kiI1"
+  },
+  {
+   "id": "kuri",
+   "name": "Kurilian Bobtail",
+   "origin": "Russia",
+   "description": "Medium to large muscular cat with distinctive pom-pom bobbed tail. Natural breed from Russian Kuril Islands.",
+   "history": "Natural breed originating from the Kuril Islands between Russia and Japan. Adapted to harsh island conditions with excellent hunting and fishing skills. Different bobbed tail mutation from Japanese Bobtail.",
+   "temperament": "Independent, Highly intelligent, Clever, Inquisitive, Sociable, Playful, Trainable, Gentle",
+   "life_span": "15-20",
+   "weight": "3.6-6.8",
+   "height": "28-36",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "NZpO4pU56M"
+  },
+  {
+   "id": "lape",
+   "name": "LaPerm",
+   "origin": "United States",
+   "description": "Medium-sized cat with distinctive curly or wavy coat ranging from tight ringlets to long corkscrew curls.",
+   "history": "Originated in Oregon in 1982 from a spontaneous mutation in a barn cat litter. The first kitten, named Curly, was born bald and later developed curly fur. The curly coat gene is dominant.",
+   "temperament": "Affectionate, Friendly, Gentle, Intelligent, Playful, Quiet",
+   "life_span": "10-15",
+   "weight": "2.7-4.5",
+   "height": "23-28",
+   "breed_group": "Rex",
+   "reference_image_id": "in-CD5LH5"
+  },
+  {
+   "id": "lyko",
+   "name": "Lykoi",
+   "origin": "United States",
+   "description": "Medium-sized cat with unique partially hairless coat resembling a werewolf. Distinctive appearance with varying amounts of fur.",
+   "history": "Developed from natural mutations appearing in feral cat populations. First intentionally bred in 2011. Name comes from Greek word for wolf. TICA recognized breed.",
+   "temperament": "Personable, Playful, Mischievous, Friendly, Cheerful, Affectionate",
+   "life_span": "12-15",
+   "weight": "2.7-5.4",
+   "height": "25-30",
+   "breed_group": "Partially hairless",
+   "reference_image_id": null
+  },
+  {
+   "id": "mcoo",
+   "name": "Maine Coon",
+   "origin": "United States",
+   "description": "Large to very large, muscular cat with long shaggy coat, tufted ears, and bushy tail. One of the largest domestic cat breeds.",
+   "history": "One of the oldest natural breeds in North America, developed in Maine. Legend says descended from Marie Antoinette's cats. Adapted to harsh New England winters with thick waterproof coat. State cat of Maine.",
+   "temperament": "Adaptable, Intelligent, Loving, Gentle, Independent, Playful, Friendly",
+   "life_span": "12-15",
+   "weight": "6.8-11.3",
+   "height": "38-64",
+   "breed_group": "Long-haired",
+   "reference_image_id": "jyjEWK7xp"
+  },
+  {
+   "id": "mala",
+   "name": "Malayan",
+   "origin": "United Kingdom",
+   "description": "Medium-sized cat similar to Burmese but in different colors. Elegant and muscular with satin-like coat.",
+   "history": "Developed in the UK as part of the Asian cat group. Related to Burmese with similar personality but different colorings. Sometimes called Asian in the UK.",
+   "temperament": "Affectionate, Interactive, Playful, Social, Vocal, People-oriented",
+   "life_span": "12-18",
+   "weight": "3.6-6.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "manx",
+   "name": "Manx",
+   "origin": "Isle of Man",
+   "description": "Medium-sized, compact cat with round body and no tail or partial tail. Powerful hindquarters give rabbit-like hopping gait.",
+   "history": "Ancient breed from the Isle of Man where taillessness developed through isolated island genetics. Taillessness caused by dominant gene. Various tail lengths occur - rumpy (no tail) to longy (full tail).",
+   "temperament": "Easy Going, Intelligent, Loyal, Playful, Social, Gentle, Affectionate",
+   "life_span": "12-14",
+   "weight": "3.6-5.9",
+   "height": "25-30",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "i9HsL15nJ"
+  },
+  {
+   "id": "mins",
+   "name": "Minskin",
+   "origin": "United States",
+   "description": "Small cat with short legs, sparse coat on body, and fully furred points. Combines Munchkin and hairless breed traits.",
+   "history": "Developed starting in 1998 in Boston by crossing Munchkins with Sphynx, then introducing Burmese and Devon Rex. Has fur on points (face, ears, legs, tail) but sparse hair on body. TICA recognized.",
+   "temperament": "Sweet-tempered, Friendly, Intelligent, Affectionate, Playful",
+   "life_span": "12-15",
+   "weight": "1.8-3.6",
+   "height": "15-23",
+   "breed_group": "Hairless/Short-legged",
+   "reference_image_id": null
+  },
+  {
+   "id": "minu",
+   "name": "Minuet",
+   "origin": "United States",
+   "description": "Small to medium cat with short legs and round Persian-type face. Also known as Napoleon cat.",
+   "history": "Developed in the 1990s by crossing Munchkins with Persians, Exotic Shorthairs, and Himalayans. Named Napoleon for short stature. TICA recognized breed.",
+   "temperament": "Charming, Gentle, Curious, Extremely affectionate, People-oriented",
+   "life_span": "9-15",
+   "weight": "2.3-4",
+   "height": "18-23",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": null
+  },
+  {
+   "id": "munc",
+   "name": "Munchkin",
+   "origin": "United States",
+   "description": "Small to medium cat with distinctive very short legs and long body. Normal-sized cat with achondroplastic legs.",
+   "history": "Modern breed developed from short-legged cats documented since 1940s. Current breeding began in Louisiana in 1983. Short legs from natural autosomal dominant gene. Controversial due to structural concerns.",
+   "temperament": "Agile, Easy Going, Intelligent, Playful, Affectionate, Outgoing",
+   "life_span": "12-15",
+   "weight": "2.7-4",
+   "height": "25-30",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "vDFI6jI2O"
+  },
+  {
+   "id": "napo",
+   "name": "Napoleon Longhair",
+   "origin": null,
+   "description": "Small to medium cat with short legs and long plush coat. Longhaired variety of the Minuet.,7-9,18-23,6-8,15-20,5-9,2.3-4,4-7,1.8-3.2,9-15",
+   "history": null,
+   "temperament": "Daily brushing to prevent mats",
+   "life_span": "4",
+   "weight": "Good with dogs, sweet temperament",
+   "height": "Excellent with families, very loving and gentle.",
+   "breed_group": null,
+   "reference_image_id": null
+  },
+  {
+   "id": "nebe",
+   "name": "Nebelung",
+   "origin": "United States",
+   "description": "Medium-sized, elegant cat with long, silky blue-gray coat and green eyes. Longhaired version of Russian Blue.",
+   "history": "Developed in the 1980s from longhaired Russian Blue-type cats. Name means 'creature of the mist' in German. Combines Russian Blue personality with elegant long coat. TICA recognized.",
+   "temperament": "Gentle, Quiet, Shy, Playful, Reserved, Loyal",
+   "life_span": "11-16",
+   "weight": "3.2-5",
+   "height": "25-33",
+   "breed_group": "Long-haired",
+   "reference_image_id": "KpHqQPUPW"
+  },
+  {
+   "id": "norw",
+   "name": "Norwegian Forest Cat",
+   "origin": "Norway",
+   "description": "Large, sturdy cat with long, water-resistant double coat and strong build. Natural breed adapted to cold Norwegian climate.",
+   "history": "Ancient natural breed that developed in Norwegian forests. Featured in Norse mythology as the skogkatt. Nearly extinct after WWII but preserved by Norwegian breeders. National cat of Norway.",
+   "temperament": "Sweet, Active, Intelligent, Social, Playful, Lively, Curious, Independent",
+   "life_span": "14-16",
+   "weight": "5.4-7.3",
+   "height": "30-41",
+   "breed_group": "Long-haired",
+   "reference_image_id": "rBuGgH_Wj"
+  },
+  {
+   "id": "ocic",
+   "name": "Ocicat",
+   "origin": "United States",
+   "description": "Medium to large, athletic spotted cat with wild appearance but fully domestic genetics. Muscular and graceful.",
+   "history": "Developed accidentally in 1964 when breeding Siamese with Abyssinian produced spotted kittens resembling wild ocelots. No wild cat genetics despite appearance. CFA recognized in 1986.",
+   "temperament": "Active, Agile, Curious, Demanding, Friendly, Gentle, Lively, Playful, Social",
+   "life_span": "12-18",
+   "weight": "4-6.8",
+   "height": "30-38",
+   "breed_group": "Short-haired",
+   "reference_image_id": "HksHrR8-9"
+  },
+  {
+   "id": "ojos",
+   "name": "Ojos Azules",
+   "origin": "United States",
+   "description": "Medium-sized cat distinctive for its deep blue eyes regardless of coat color. Very rare breed.",
+   "history": "Discovered in New Mexico in 1984 when a feral tortoiseshell cat with blue eyes was found. The blue eye gene is unique and unrelated to colorpoint or white spotting genes. Extremely rare - breeding complications make this a difficult breed to establish.",
+   "temperament": "Active, Friendly, Affectionate, Social",
+   "life_span": "10-12",
+   "weight": "2.7-5.4",
+   "height": "23-28",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "ori1",
+   "name": "Oriental Longhair",
+   "origin": "United States",
+   "description": "Elegant longhaired version of the Oriental Shorthair with silky flowing coat. Same tubular body and large ears.",
+   "history": "Developed from Oriental Shorthairs with Balinese outcrosses to introduce the longhair gene. Same colors and patterns as Oriental Shorthair but with flowing coat.",
+   "temperament": "Energetic, Affectionate, Intelligent, Social, Playful, Curious",
+   "life_span": "12-15",
+   "weight": "2.3-4.5",
+   "height": "25-36",
+   "breed_group": "Long-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "orie",
+   "name": "Oriental Shorthair",
+   "origin": "United States",
+   "description": "Medium-sized, elegant cat with long tubular body, large ears, and wedge-shaped head. Siamese body type in hundreds of colors.",
+   "history": "Developed from Siamese in the 1950s-60s by breeders wanting Siamese type in non-pointed colors. Available in over 300 color combinations. Same personality as Siamese.",
+   "temperament": "Energetic, Affectionate, Intelligent, Social, Playful, Curious",
+   "life_span": "12-15",
+   "weight": "2.3-4.5",
+   "height": "25-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "xbW2bsXfK"
+  },
+  {
+   "id": "pant",
+   "name": "Pantherette",
+   "origin": null,
+   "description": "Medium to large, muscular black cat bred to resemble a black panther. Experimental breed.,12-15,30-38,10-13,25-33,10-18,4.5-8.2,8-14,3.6-6.4,12-15",
+   "history": null,
+   "temperament": "Minimal grooming needed",
+   "life_span": "1",
+   "weight": "Good with dogs",
+   "height": "Good with active families, playful and friendly.",
+   "breed_group": null,
+   "reference_image_id": null
+  },
+  {
+   "id": "pers",
+   "name": "Persian",
+   "origin": "Iran (Persia)",
+   "description": "Medium to large, cobby cat with distinctive flat face, long luxurious coat, and calm demeanor. One of the oldest and most popular breeds.",
+   "history": "One of the oldest known breeds, originating in Persia (Iran). Popular with royalty since 1600s when brought to Europe. Modern flat-faced type developed primarily in the 20th century.",
+   "temperament": "Affectionate, Loyal, Sedate, Quiet, Sweet, Gentle, Calm",
+   "life_span": "12-17",
+   "weight": "4-6.4",
+   "height": "25-38",
+   "breed_group": "Long-haired",
+   "reference_image_id": "Pqtwt4FCq"
+  },
+  {
+   "id": "pete",
+   "name": "Peterbald",
+   "origin": "Russia",
+   "description": "Medium-sized, elegant hairless or partially haired cat with long narrow head and large ears. Russian breed related to Oriental type.",
+   "history": "Developed in St. Petersburg, Russia in 1994 by crossing a Don Sphynx with an Oriental Shorthair. Combines Oriental elegance with hairlessness. Can range from completely bald to short coat.",
+   "temperament": "Highly intelligent, Affectionate, Playful, Active, Athletic, Social",
+   "life_span": "10-15",
+   "weight": "3.2-6.4",
+   "height": "25-36",
+   "breed_group": "Hairless",
+   "reference_image_id": null
+  },
+  {
+   "id": "pixi",
+   "name": "Pixie-bob",
+   "origin": "United States",
+   "description": "Medium to large, muscular cat with bobbed tail and wild appearance. Resembles North American bobcat.",
+   "history": "Developed in the 1980s from naturally occurring domestic cats resembling bobcats. Despite legends, DNA testing confirms fully domestic origins. Known for dog-like personalities. Polydactyl toes common.",
+   "temperament": "Affectionate, Social, Intelligent, Loyal, Devoted, Active",
+   "life_span": "13-16",
+   "weight": "5-7.7",
+   "height": "36-43",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "fAYgJmLM8"
+  },
+  {
+   "id": "poly",
+   "name": "Polydactyl",
+   "origin": "Worldwide",
+   "description": "Domestic cat of any breed or type with extra toes. Can occur in any cat population.",
+   "history": "Polydactyly is a genetic trait causing extra toes, most common on front paws. Famous at Hemingway Home in Key West. Sometimes called 'mitten cats' or 'thumb cats.' Not a breed but a trait.",
+   "temperament": "Varies by individual - typically Affectionate, Intelligent, Playful, Social",
+   "life_span": "12-18",
+   "weight": "3.6-6.8",
+   "height": "Variable",
+   "breed_group": "Varies",
+   "reference_image_id": null
+  },
+  {
+   "id": "raas",
+   "name": "Raas",
+   "origin": "Indonesia",
+   "description": "Medium to large natural breed from Raas Island, Indonesia. Robust build with distinctive wild appearance.",
+   "history": "Natural breed from Raas Island in the Java Sea, Indonesia. Adapted to island life with excellent hunting skills. Rare outside Indonesia. Limited breeding population worldwide.",
+   "temperament": "Independent, Intelligent, Athletic, Active",
+   "life_span": "12-15",
+   "weight": "3.6-6.4",
+   "height": "25-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "raga",
+   "name": "Ragamuffin",
+   "origin": "United States",
+   "description": "Large, cuddly cat with plush coat and sweet expression. Related to Ragdoll but with more coat colors and patterns allowed.",
+   "history": "Developed from Ragdoll outcrosses in the 1990s when some breeders split from Ragdoll breeding programs. Allows wider range of colors and patterns than Ragdoll. CFA recognized in 2003.",
+   "temperament": "Affectionate, Friendly, Gentle, Calm, Sweet, Patient",
+   "life_span": "12-16",
+   "weight": "6.8-9.1",
+   "height": "30-41",
+   "breed_group": "Long-haired",
+   "reference_image_id": "SMuZx-bFM"
+  },
+  {
+   "id": "ragd",
+   "name": "Ragdoll",
+   "origin": "United States",
+   "description": "Large, gentle cat famous for going limp when picked up. Striking blue eyes and colorpoint semi-long coat.",
+   "history": "Developed in California in the 1960s by Ann Baker. Famous for relaxing completely when held. Slow to mature, reaching full size at 4 years. One of the largest domestic cat breeds.",
+   "temperament": "Affectionate, Friendly, Gentle, Quiet, Easygoing, Docile, Calm",
+   "life_span": "12-17",
+   "weight": "6.8-9.1",
+   "height": "33-43",
+   "breed_group": "Long-haired",
+   "reference_image_id": "80kGxlgR1"
+  },
+  {
+   "id": "rblu",
+   "name": "Russian Blue",
+   "origin": "Russia",
+   "description": "Medium-sized, elegant cat with distinctive blue-gray double coat and emerald green eyes. Known for reserved but affectionate nature.",
+   "history": "Natural breed originating around the Russian port of Arkhangelsk. Also called Archangel Blue. Nearly extinct after WWII but rebuilt using Scandinavian and British cats. Known for hypoallergenic qualities.",
+   "temperament": "Active, Dependent, Easy Going, Gentle, Intelligent, Loyal, Playful, Quiet, Reserved",
+   "life_span": "15-20",
+   "weight": "3.2-6.8",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "S-1YzA7-_"
+  },
+  {
+   "id": "safa",
+   "name": "Safari",
+   "origin": "United States",
+   "description": "Large hybrid cat crossed from Geoffroy's cat and domestic breeds. Rare with wild appearance.",
+   "history": "Rare hybrid developed by crossing Geoffroy's cat with domestic cats. One of the rarest and most expensive hybrid cats. Difficult to breed due to chromosome differences. Not widely available.",
+   "temperament": "Intelligent, Active, Affectionate, Curious, Independent",
+   "life_span": "15-20",
+   "weight": "6.8-11.3",
+   "height": "36-46",
+   "breed_group": "Hybrid",
+   "reference_image_id": null
+  },
+  {
+   "id": "sava",
+   "name": "Savannah",
+   "origin": "United States",
+   "description": "Large to very large tall spotted cat, a hybrid between domestic cat and African serval. Wild appearance with domestic temperament.",
+   "history": "Created in 1986 by crossing a serval with a domestic cat. Generation level (F1-F5) affects size and temperament. Largest domestic cat breed. Legal status varies by location. TICA recognized.",
+   "temperament": "Curious, Social, Intelligent, Loyal, Outgoing, Adventurous, Affectionate, Active",
+   "life_span": "12-20",
+   "weight": "5.4-11.3",
+   "height": "41-51",
+   "breed_group": "Hybrid",
+   "reference_image_id": "qf6MhNS8z"
+  },
+  {
+   "id": "sfol",
+   "name": "Scottish Fold",
+   "origin": "Scotland",
+   "description": "Medium-sized round cat with distinctive folded ears that give an owl-like appearance. Known for sweet, gentle personality.",
+   "history": "Originated in 1961 from a white barn cat named Susie found in Scotland with naturally folded ears. Fold is caused by cartilage gene that can also affect joints. Breeding regulations vary by country.",
+   "temperament": "Affectionate, Intelligent, Loyal, Playful, Social, Sweet, Loving, Gentle",
+   "life_span": "11-14",
+   "weight": "4-5.9",
+   "height": "25-30",
+   "breed_group": "Short/Long-hair",
+   "reference_image_id": "dkN5wGUxC"
+  },
+  {
+   "id": "srex",
+   "name": "Selkirk Rex",
+   "origin": "United States",
+   "description": "Medium to large cat with plush, curly coat resembling a teddy bear. More stocky build than other Rex breeds.",
+   "history": "Originated in 1987 in Montana from a curly-coated kitten in a shelter litter. Named after the Selkirk Mountains. Unlike other Rex breeds, the curl gene is dominant. CFA recognized in 2000.",
+   "temperament": "Active, Affectionate, Dependent, Gentle, Patient, Playful, Quiet, Social",
+   "life_span": "14-15",
+   "weight": "5-7.3",
+   "height": "28-36",
+   "breed_group": "Rex",
+   "reference_image_id": "B2YB13Ydq"
+  },
+  {
+   "id": "sere",
+   "name": "Serengeti",
+   "origin": "United States",
+   "description": "Medium to large, long-legged spotted cat developed to resemble wild serval without wild genetics.",
+   "history": "Developed in the 1990s by crossing Bengals with Oriental Shorthairs. Goal was to create a cat resembling the African serval using only domestic breeds. TICA registered breed.",
+   "temperament": "Confident, Friendly, Patient, Loyal, Vocal, Alert, Active",
+   "life_span": "13-15",
+   "weight": "3.6-6.8",
+   "height": "30-38",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "siam",
+   "name": "Siamese",
+   "origin": "Thailand",
+   "description": "Medium-sized, elegant cat with distinctive colorpoint pattern, blue eyes, and wedge-shaped head. One of the most recognizable breeds.",
+   "history": "One of the oldest recognized breeds, originating in Thailand (Siam). Favored by Thai royalty. First came to the West in the 1880s. Modern show Siamese has more extreme features than traditional type.",
+   "temperament": "Active, Agile, Clever, Sociable, Loving, Energetic, Affectionate",
+   "life_span": "12-20",
+   "weight": "3.6-6.8",
+   "height": "25-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "Xwp-MBOtI"
+  },
+  {
+   "id": "sibe",
+   "name": "Siberian",
+   "origin": "Russia",
+   "description": "Large, powerful cat with long triple coat and strong build. Russia's national cat adapted to harsh Siberian climate.",
+   "history": "Ancient natural breed that developed in Russia's harsh Siberian forests. Considered Russia's national cat. Known for potentially hypoallergenic qualities due to lower Fel d 1 protein levels.",
+   "temperament": "Curious, Intelligent, Loyal, Sweet, Agile, Playful, Affectionate, Adventurous",
+   "life_span": "11-18",
+   "weight": "6.8-9.1",
+   "height": "33-43",
+   "breed_group": "Long-haired",
+   "reference_image_id": "IJyPTBLyU"
+  },
+  {
+   "id": "sing",
+   "name": "Singapura",
+   "origin": "Singapore",
+   "description": "Small, muscular cat with distinctive sepia agouti coat and large eyes. One of the smallest domestic cat breeds.",
+   "history": "Origin debated - claimed to be from Singapore street cats but controversy exists about true origins. Also called 'Drain Cat' for Singapore street cats' hiding places. CFA recognized in 1988.",
+   "temperament": "Affectionate, Curious, Easy Going, Intelligent, Interactive, Lively, Loyal, Playful",
+   "life_span": "12-15",
+   "weight": "1.8-3.6",
+   "height": "18-23",
+   "breed_group": "Short-haired",
+   "reference_image_id": "GOvziuOyw"
+  },
+  {
+   "id": "sinp",
+   "name": "Singapura Tabby",
+   "origin": null,
+   "description": "Small, muscular cat with tabby pattern variation of Singapura. Extremely rare.,7-9,18-23,6-8,15-20,4-8,1.8-3.6,4-6,1.8-2.7,12-15",
+   "history": null,
+   "temperament": "Minimal grooming needed",
+   "life_span": "1",
+   "weight": "Good with dogs, adaptable",
+   "height": "Excellent with families, loves attention. Great with children.",
+   "breed_group": null,
+   "reference_image_id": null
+  },
+  {
+   "id": "skoo",
+   "name": "Skookum",
+   "origin": "United States",
+   "description": "Small cat with short legs and curly coat. Combines Munchkin and LaPerm traits.",
+   "history": "Developed in the 1990s by crossing Munchkins with LaPerms. Named after Chinook Jargon word for 'strong' or 'mighty.' Recognized by some registries. Short-legged with curly coat.",
+   "temperament": "Energetic, Silly, Playful, Intelligent, Affectionate, Sweet",
+   "life_span": "10-15",
+   "weight": "2.3-4",
+   "height": "15-23",
+   "breed_group": "Rex",
+   "reference_image_id": null
+  },
+  {
+   "id": "snow",
+   "name": "Snowshoe",
+   "origin": "United States",
+   "description": "Medium-sized pointed cat with distinctive white feet, blue eyes, and inverted V marking on face.",
+   "history": "Developed in the 1960s by crossing Siamese with American Shorthairs. Named for distinctive white feet. Difficult to breed as markings are hard to predict. Gaining popularity.",
+   "temperament": "Affectionate, Social, Intelligent, Sweet-tempered, Active, Vocal",
+   "life_span": "14-19",
+   "weight": "4-5.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "BB18hZT2z"
+  },
+  {
+   "id": "soko",
+   "name": "Sokoke",
+   "origin": "Kenya",
+   "description": "Medium-sized, athletic cat with distinctive modified tabby pattern. Natural breed from Kenya's Sokoke forest.",
+   "history": "Natural breed from the Sokoke forest region of Kenya. Known locally as Khadzonzo. First brought to Denmark in 1978. One of the rarest natural cat breeds. Distinctive tree-bark pattern.",
+   "temperament": "Easily leash-trained, Intelligent, Curious, Interactive, Loving, Active",
+   "life_span": "12-15",
+   "weight": "3.2-5",
+   "height": "23-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "soma",
+   "name": "Somali",
+   "origin": "United States",
+   "description": "Medium-sized, elegant cat with long ticked coat and bushy tail. Longhaired version of the Abyssinian.",
+   "history": "Developed from longhaired kittens appearing in Abyssinian litters. First bred intentionally in the 1960s. Named for Somalia, neighbor to Abyssinia (Ethiopia). Called 'fox cat' for its bushy tail.",
+   "temperament": "Mischievous, Tenacious, Intelligent, Affectionate, Gentle, Interactive, Loyal, Active",
+   "life_span": "11-16",
+   "weight": "3.6-5.4",
+   "height": "25-30",
+   "breed_group": "Long-haired",
+   "reference_image_id": "yLnM69IIz"
+  },
+  {
+   "id": "sphy",
+   "name": "Sphynx",
+   "origin": "Canada",
+   "description": "Medium-sized, hairless cat with wrinkled skin, large ears, and muscular body. Known for affectionate, attention-seeking personality.",
+   "history": "Originated from hairless kittens born in Toronto, Canada in 1966. Hairlessness is caused by a recessive gene. Not truly hairless - covered in fine down. Needs warmth and sun protection.",
+   "temperament": "Loyal, Inquisitive, Friendly, Quiet, Gentle, Affectionate, Social",
+   "life_span": "12-16",
+   "weight": "3.6-6.4",
+   "height": "23-30",
+   "breed_group": "Hairless",
+   "reference_image_id": "2hPNn0Wrr"
+  },
+  {
+   "id": "suph",
+   "name": "Suphalak",
+   "origin": "Thailand",
+   "description": "Medium-sized, muscular cat with solid reddish-brown coat. Ancient Thai breed mentioned in Cat Book Poems.",
+   "history": "Ancient Thai breed mentioned in the Tamra Maew (Cat Book Poems) dating from 1350. Extremely rare, nearly extinct. Solid reddish-brown color. Related to Burmese. Considered a lucky cat in Thai culture.",
+   "temperament": "Affectionate, Intelligent, Playful, Social, Active",
+   "life_span": "12-15",
+   "weight": "3.6-5.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "thai",
+   "name": "Thai",
+   "origin": "Thailand",
+   "description": "Medium-sized pointed cat representing the traditional Siamese type. Less extreme features than modern Siamese.",
+   "history": "Represents the traditional or 'old-style' Siamese that existed before selective breeding created the modern extreme type. Sometimes called Wichian Mat. TICA recognized as separate breed.",
+   "temperament": "Active, Social, Intelligent, Affectionate, Playful, Vocal",
+   "life_span": "12-16",
+   "weight": "3.6-6.8",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": null
+  },
+  {
+   "id": "tonk",
+   "name": "Tonkinese",
+   "origin": "Canada/United States",
+   "description": "Medium-sized, muscular cat combining Siamese and Burmese traits. Pointed pattern with aqua eyes in mink color.",
+   "history": "Created in the 1960s by crossing Siamese with Burmese, though the combination occurred naturally before. Combines best traits of both breeds. Comes in three pattern types: solid, mink, and pointed.",
+   "temperament": "Curious, Intelligent, Social, Lively, Outgoing, Playful, Affectionate",
+   "life_span": "14-16",
+   "weight": "2.7-5.4",
+   "height": "25-30",
+   "breed_group": "Short-haired",
+   "reference_image_id": "TYQKhQ3mn"
+  },
+  {
+   "id": "toyb",
+   "name": "Toybob",
+   "origin": "Russia",
+   "description": "Very small, compact cat with bobbed tail. One of the smallest cat breeds but muscular and active.",
+   "history": "Developed in Russia starting in 1983 from naturally small cats with bobbed tails. Not a miniaturized breed - naturally occurring small size. TICA recognized. Extremely rare outside Russia.",
+   "temperament": "Loving, Social, Active, Playful, Affectionate, Sweet",
+   "life_span": "14-18",
+   "weight": "1.4-2.7",
+   "height": "15-20",
+   "breed_group": "Short/Semi-longhair",
+   "reference_image_id": null
+  },
+  {
+   "id": "toyg",
+   "name": "Toyger",
+   "origin": "United States",
+   "description": "Medium to large, muscular cat with distinctive tiger-like tabby stripes. Bred to resemble a miniature tiger.",
+   "history": "Developed starting in the 1980s by Judy Sugden to create a domestic cat resembling a tiger. Bred from Bengals and domestic shorthairs. The name is a portmanteau of 'toy' and 'tiger.' TICA recognized.",
+   "temperament": "Playful, Social, Intelligent, Friendly, Outgoing, Active",
+   "life_span": "12-15",
+   "weight": "4.5-6.8",
+   "height": "28-36",
+   "breed_group": "Short-haired",
+   "reference_image_id": "Ba-qRZ_8n"
+  },
+  {
+   "id": "tang",
+   "name": "Turkish Angora",
+   "origin": "Turkey",
+   "description": "Medium-sized, elegant cat with long silky coat and graceful build. One of the oldest natural cat breeds.",
+   "history": "Ancient natural breed from Turkey, possibly one of the oldest longhaired breeds. Prized in Turkey's national zoo breeding program in Ankara. All-white cats with odd eyes are traditionally most valued.",
+   "temperament": "Affectionate, Agile, Clever, Gentle, Intelligent, Playful, Social, Athletic",
+   "life_span": "12-18",
+   "weight": "3.2-6.4",
+   "height": "25-36",
+   "breed_group": "Long-haired",
+   "reference_image_id": "KU_LUntSX"
+  },
+  {
+   "id": "tvan",
+   "name": "Turkish Van",
+   "origin": "Turkey",
+   "description": "Large, muscular cat with distinctive Van pattern (colored head and tail, white body). Famous for loving water.",
+   "history": "Ancient natural breed from the Lake Van region of Turkey. Famous for swimming ability and love of water. Distinctive Van pattern with colored markings only on head and tail. Turkish national treasure.",
+   "temperament": "Agile, Intelligent, Loyal, Playful, Energetic, Active, Affectionate",
+   "life_span": "12-17",
+   "weight": "4.5-9.1",
+   "height": "33-43",
+   "breed_group": "Long-haired",
+   "reference_image_id": "NHiuHD4Ax"
+  },
+  {
+   "id": "ukra",
+   "name": "Ukrainian Levkoy",
+   "origin": "Ukraine",
+   "description": "Medium-sized, hairless cat with distinctive folded ears. Unique combination of hairlessness and ear fold.",
+   "history": "Developed in Ukraine starting in 2000 by crossing Don Sphynx with Scottish Fold. Combines hairlessness with folded ears. Not widely recognized due to potential health concerns with both traits.",
+   "temperament": "Affectionate, Relaxed, Playful, Curious, Intelligent, Social",
+   "life_span": "12-15",
+   "weight": "3.6-5.4",
+   "height": "25-30",
+   "breed_group": "Hairless",
+   "reference_image_id": null
+  },
+  {
+   "id": "ycho",
+   "name": "York Chocolate",
+   "origin": "United States",
+   "description": "Large, semi-longhaired cat with rich chocolate or lavender coat. Farm cat origin with affectionate personality.",
+   "history": "Originated in 1983 on a New York farm from a black and white longhaired cat and a black longhaired tom. Named for New York state and chocolate color. Rare breed, may be near extinction.",
+   "temperament": "Playful, Social, Intelligent, Curious, Friendly, Affectionate, Active",
+   "life_span": "13-15",
+   "weight": "4.5-7.3",
+   "height": "28-36",
+   "breed_group": "Semi-longhair",
+   "reference_image_id": "xIICfnlNm"
+  }
+ ],
+ "photos": {
+  "abys": [
+   {
+    "id": "KWdLHmOqc",
+    "url": "https://cdn2.thecatapi.com/images/KWdLHmOqc.jpg",
+    "w": 3114,
+    "h": 2609,
+    "fx": 29,
+    "fy": 26
+   },
+   {
+    "id": "xnzzM6MBI",
+    "url": "https://cdn2.thecatapi.com/images/xnzzM6MBI.jpg",
+    "w": 2592,
+    "h": 1629,
+    "fx": 34,
+    "fy": 49
+   },
+   {
+    "id": "EHG3sOpAM",
+    "url": "https://cdn2.thecatapi.com/images/EHG3sOpAM.jpg",
+    "w": 1600,
+    "h": 1067,
+    "fx": 15,
+    "fy": 43
+   },
+   {
+    "id": "unPP08xOZ",
+    "url": "https://cdn2.thecatapi.com/images/unPP08xOZ.jpg",
+    "w": 2136,
+    "h": 2848,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "N-94oSJ5T",
+    "url": "https://cdn2.thecatapi.com/images/N-94oSJ5T.jpg",
+    "w": 1920,
+    "h": 1280,
+    "fx": 23,
+    "fy": 15
+   },
+   {
+    "id": "itfFA4NWS",
+    "url": "https://cdn2.thecatapi.com/images/itfFA4NWS.jpg",
+    "w": 1280,
+    "h": 914,
+    "fx": 15,
+    "fy": 27
+   }
+  ],
+  "aege": [
+   {
+    "id": "h19-vtIeX",
+    "url": "https://cdn2.thecatapi.com/images/h19-vtIeX.jpg",
+    "w": 4272,
+    "h": 2848,
+    "fx": 25,
+    "fy": 15
+   },
+   {
+    "id": "ozEvzdVM-",
+    "url": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg",
+    "w": 1200,
+    "h": 800,
+    "fx": 29,
+    "fy": 16
+   },
+   {
+    "id": "ks5wRxZmP",
+    "url": "https://cdn2.thecatapi.com/images/ks5wRxZmP.jpg",
+    "w": 1939,
+    "h": 1400,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "uvt2Psd9O",
+    "url": "https://cdn2.thecatapi.com/images/uvt2Psd9O.jpg",
+    "w": 1024,
+    "h": 1024,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "Hb2N6tYTJ",
+    "url": "https://cdn2.thecatapi.com/images/Hb2N6tYTJ.jpg",
+    "w": 1024,
+    "h": 1024,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "abob": [
+   {
+    "id": "8r4M61iyS",
+    "url": "https://cdn2.thecatapi.com/images/8r4M61iyS.jpg",
+    "w": 4592,
+    "h": 2411,
+    "fx": 32,
+    "fy": 15
+   },
+   {
+    "id": "d55E_KMKZ",
+    "url": "https://cdn2.thecatapi.com/images/d55E_KMKZ.jpg",
+    "w": 2160,
+    "h": 1284,
+    "fx": 25,
+    "fy": 48
+   },
+   {
+    "id": "hBXicehMA",
+    "url": "https://cdn2.thecatapi.com/images/hBXicehMA.jpg",
+    "w": 1600,
+    "h": 951,
+    "fx": 16,
+    "fy": 33
+   },
+   {
+    "id": "gVrhv_yAY",
+    "url": "https://cdn2.thecatapi.com/images/gVrhv_yAY.jpg",
+    "w": 1600,
+    "h": 1051,
+    "fx": 36,
+    "fy": 59
+   },
+   {
+    "id": "vH0bd0YDH",
+    "url": "https://cdn2.thecatapi.com/images/vH0bd0YDH.jpg",
+    "w": 1335,
+    "h": 1206,
+    "fx": 36,
+    "fy": 50
+   },
+   {
+    "id": "r_njVlaSz",
+    "url": "https://cdn2.thecatapi.com/images/r_njVlaSz.jpg",
+    "w": 1920,
+    "h": 1080,
+    "fx": 22,
+    "fy": 57
+   }
+  ],
+  "acur": [
+   {
+    "id": "ZZmFRKWZZ",
+    "url": "https://cdn2.thecatapi.com/images/ZZmFRKWZZ.jpg",
+    "w": 1980,
+    "h": 1355,
+    "fx": 24,
+    "fy": 24
+   },
+   {
+    "id": "TBA3JzB9P",
+    "url": "https://cdn2.thecatapi.com/images/TBA3JzB9P.jpg",
+    "w": 1200,
+    "h": 856,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "vJB8rwfdX",
+    "url": "https://cdn2.thecatapi.com/images/vJB8rwfdX.jpg",
+    "w": 1600,
+    "h": 1067,
+    "fx": 36,
+    "fy": 17
+   },
+   {
+    "id": "zeKI28A21",
+    "url": "https://cdn2.thecatapi.com/images/zeKI28A21.jpg",
+    "w": 1920,
+    "h": 1200,
+    "fx": 15,
+    "fy": 40
+   },
+   {
+    "id": "xnsqonbjW",
+    "url": "https://cdn2.thecatapi.com/images/xnsqonbjW.jpg",
+    "w": 1000,
+    "h": 964,
+    "fx": 27,
+    "fy": 50
+   },
+   {
+    "id": "kdfcmTWJL",
+    "url": "https://cdn2.thecatapi.com/images/kdfcmTWJL.jpg",
+    "w": 1600,
+    "h": 1066,
+    "fx": 43,
+    "fy": 26
+   }
+  ],
+  "amer": [],
+  "asho": [
+   {
+    "id": "MuEGe1-Sz",
+    "url": "https://cdn2.thecatapi.com/images/MuEGe1-Sz.jpg",
+    "w": 3000,
+    "h": 2002,
+    "fx": 26,
+    "fy": 40
+   },
+   {
+    "id": "SCHe-SekW",
+    "url": "https://cdn2.thecatapi.com/images/SCHe-SekW.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 15,
+    "fy": 30
+   },
+   {
+    "id": "8NdgktL3E",
+    "url": "https://cdn2.thecatapi.com/images/8NdgktL3E.jpg",
+    "w": 2716,
+    "h": 1810,
+    "fx": 27,
+    "fy": 49
+   },
+   {
+    "id": "JFPROfGtQ",
+    "url": "https://cdn2.thecatapi.com/images/JFPROfGtQ.jpg",
+    "w": 1600,
+    "h": 1200,
+    "fx": 37,
+    "fy": 52
+   }
+  ],
+  "awir": [
+   {
+    "id": "kxUakBB2o",
+    "url": "https://cdn2.thecatapi.com/images/kxUakBB2o.jpg",
+    "w": 1250,
+    "h": 650,
+    "fx": 22,
+    "fy": 23
+   },
+   {
+    "id": "Q6TDnfM_O",
+    "url": "https://cdn2.thecatapi.com/images/Q6TDnfM_O.jpg",
+    "w": 1600,
+    "h": 1000,
+    "fx": 34,
+    "fy": 48
+   },
+   {
+    "id": "8D--jCd21",
+    "url": "https://cdn2.thecatapi.com/images/8D--jCd21.jpg",
+    "w": 1280,
+    "h": 936,
+    "fx": 15,
+    "fy": 15
+   }
+  ],
+  "aphr": [],
+  "amau": [
+   {
+    "id": "zlpgGWqN7",
+    "url": "https://cdn2.thecatapi.com/images/zlpgGWqN7.jpg",
+    "w": 3840,
+    "h": 2400,
+    "fx": 22,
+    "fy": 38
+   },
+   {
+    "id": "z_k-oJ8xG",
+    "url": "https://cdn2.thecatapi.com/images/z_k-oJ8xG.jpg",
+    "w": 2031,
+    "h": 1217,
+    "fx": 44,
+    "fy": 15
+   },
+   {
+    "id": "m1TeHn2dH",
+    "url": "https://cdn2.thecatapi.com/images/m1TeHn2dH.jpg",
+    "w": 3555,
+    "h": 2569,
+    "fx": 15,
+    "fy": 22
+   },
+   {
+    "id": "cZHbIzC_l",
+    "url": "https://cdn2.thecatapi.com/images/cZHbIzC_l.jpg",
+    "w": 1536,
+    "h": 1020,
+    "fx": 37,
+    "fy": 35
+   },
+   {
+    "id": "k71ULYfRr",
+    "url": "https://cdn2.thecatapi.com/images/k71ULYfRr.jpg",
+    "w": 2048,
+    "h": 1554,
+    "fx": 26,
+    "fy": 40
+   },
+   {
+    "id": "mnD88Lsjd",
+    "url": "https://cdn2.thecatapi.com/images/mnD88Lsjd.jpg",
+    "w": 1920,
+    "h": 1200,
+    "fx": 25,
+    "fy": 38
+   }
+  ],
+  "asia": [],
+  "amis": [
+   {
+    "id": "zTiuUpmqf",
+    "url": "https://cdn2.thecatapi.com/images/zTiuUpmqf.jpg",
+    "w": 4553,
+    "h": 3036,
+    "fx": 53,
+    "fy": 42
+   },
+   {
+    "id": "_6x-3TiCA",
+    "url": "https://cdn2.thecatapi.com/images/_6x-3TiCA.jpg",
+    "w": 1231,
+    "h": 1165,
+    "fx": 53,
+    "fy": 15
+   },
+   {
+    "id": "weHGBmpb0",
+    "url": "https://cdn2.thecatapi.com/images/weHGBmpb0.jpg",
+    "w": 960,
+    "h": 854,
+    "fx": 20,
+    "fy": 30
+   },
+   {
+    "id": "7-1CtKMRr",
+    "url": "https://cdn2.thecatapi.com/images/7-1CtKMRr.jpg",
+    "w": 1800,
+    "h": 1200,
+    "fx": 52,
+    "fy": 20
+   }
+  ],
+  "bali": [
+   {
+    "id": "obRjvWv-e",
+    "url": "https://cdn2.thecatapi.com/images/obRjvWv-e.jpg",
+    "w": 2560,
+    "h": 1600,
+    "fx": 55,
+    "fy": 20
+   },
+   {
+    "id": "DBmIBhhyv",
+    "url": "https://cdn2.thecatapi.com/images/DBmIBhhyv.jpg",
+    "w": 1220,
+    "h": 915,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "4ndvXwCiI",
+    "url": "https://cdn2.thecatapi.com/images/4ndvXwCiI.jpg",
+    "w": 1280,
+    "h": 960,
+    "fx": 42,
+    "fy": 23
+   },
+   {
+    "id": "SwjDQ76Ix",
+    "url": "https://cdn2.thecatapi.com/images/SwjDQ76Ix.jpg",
+    "w": 1620,
+    "h": 1080,
+    "fx": 31,
+    "fy": 52
+   },
+   {
+    "id": "FJ89mXP4p",
+    "url": "https://cdn2.thecatapi.com/images/FJ89mXP4p.jpg",
+    "w": 1920,
+    "h": 1280,
+    "fx": 20,
+    "fy": 16
+   },
+   {
+    "id": "aU69p2mTT",
+    "url": "https://cdn2.thecatapi.com/images/aU69p2mTT.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 15,
+    "fy": 40
+   }
+  ],
+  "bamb": [
+   {
+    "id": "Oaoo1ky3A",
+    "url": "https://cdn2.thecatapi.com/images/Oaoo1ky3A.jpg",
+    "w": 3878,
+    "h": 2771,
+    "fx": 27,
+    "fy": 40
+   },
+   {
+    "id": "s42I_BL-a",
+    "url": "https://cdn2.thecatapi.com/images/s42I_BL-a.jpg",
+    "w": 1620,
+    "h": 1080,
+    "fx": 26,
+    "fy": 41
+   },
+   {
+    "id": "MizM7dBMU",
+    "url": "https://cdn2.thecatapi.com/images/MizM7dBMU.jpg",
+    "w": 1200,
+    "h": 800,
+    "fx": 26,
+    "fy": 23
+   },
+   {
+    "id": "p46ys1bGF",
+    "url": "https://cdn2.thecatapi.com/images/p46ys1bGF.jpg",
+    "w": 1620,
+    "h": 1080,
+    "fx": 28,
+    "fy": 43
+   },
+   {
+    "id": "jUY0Dt5iB",
+    "url": "https://cdn2.thecatapi.com/images/jUY0Dt5iB.jpg",
+    "w": 1100,
+    "h": 777,
+    "fx": 21,
+    "fy": 18
+   },
+   {
+    "id": "wiHVRle1m",
+    "url": "https://cdn2.thecatapi.com/images/wiHVRle1m.jpg",
+    "w": 1600,
+    "h": 1200,
+    "fx": 33,
+    "fy": 37
+   }
+  ],
+  "beng": [
+   {
+    "id": "dN6eoeLjY",
+    "url": "https://cdn2.thecatapi.com/images/dN6eoeLjY.jpg",
+    "w": 3648,
+    "h": 2736,
+    "fx": 15,
+    "fy": 45
+   },
+   {
+    "id": "J2PmlIizw",
+    "url": "https://cdn2.thecatapi.com/images/J2PmlIizw.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 15,
+    "fy": 52
+   },
+   {
+    "id": "LSaDk6OjY",
+    "url": "https://cdn2.thecatapi.com/images/LSaDk6OjY.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "8pCFG7gCV",
+    "url": "https://cdn2.thecatapi.com/images/8pCFG7gCV.jpg",
+    "w": 750,
+    "h": 937,
+    "fx": 19,
+    "fy": 15
+   },
+   {
+    "id": "IFXsxmXLm",
+    "url": "https://cdn2.thecatapi.com/images/IFXsxmXLm.jpg",
+    "w": 973,
+    "h": 973,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "8ciqdpaO5",
+    "url": "https://cdn2.thecatapi.com/images/8ciqdpaO5.jpg",
+    "w": 1080,
+    "h": 809,
+    "fx": 21,
+    "fy": 15
+   }
+  ],
+  "birm": [
+   {
+    "id": "ln1Ks7VIu",
+    "url": "https://cdn2.thecatapi.com/images/ln1Ks7VIu.jpg",
+    "w": 4032,
+    "h": 3024,
+    "fx": 32,
+    "fy": 40
+   },
+   {
+    "id": "OhTkBTPnD",
+    "url": "https://cdn2.thecatapi.com/images/OhTkBTPnD.jpg",
+    "w": 1100,
+    "h": 1100,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "TzyZJUeIM",
+    "url": "https://cdn2.thecatapi.com/images/TzyZJUeIM.jpg",
+    "w": 900,
+    "h": 1137,
+    "fx": 27,
+    "fy": 18
+   },
+   {
+    "id": "Dm0H1zSK1",
+    "url": "https://cdn2.thecatapi.com/images/Dm0H1zSK1.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 22,
+    "fy": 15
+   },
+   {
+    "id": "xRMeDCybn",
+    "url": "https://cdn2.thecatapi.com/images/xRMeDCybn.jpg",
+    "w": 1068,
+    "h": 1068,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "3rK7HGo7r",
+    "url": "https://cdn2.thecatapi.com/images/3rK7HGo7r.jpg",
+    "w": 1024,
+    "h": 1536,
+    "fx": 37,
+    "fy": 21
+   }
+  ],
+  "bomb": [
+   {
+    "id": "BkksyH95Z",
+    "url": "https://cdn2.thecatapi.com/images/BkksyH95Z.jpg",
+    "w": 1920,
+    "h": 1080,
+    "fx": 35,
+    "fy": 15
+   },
+   {
+    "id": "5iYq9NmT1",
+    "url": "https://cdn2.thecatapi.com/images/5iYq9NmT1.jpg",
+    "w": 1250,
+    "h": 650,
+    "fx": 17,
+    "fy": 43
+   },
+   {
+    "id": "Bc0CMLOjz",
+    "url": "https://cdn2.thecatapi.com/images/Bc0CMLOjz.jpg",
+    "w": 944,
+    "h": 1024,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "aZii7hC77",
+    "url": "https://cdn2.thecatapi.com/images/aZii7hC77.jpg",
+    "w": 1200,
+    "h": 800,
+    "fx": 30,
+    "fy": 15
+   },
+   {
+    "id": "Z6mrcccZv",
+    "url": "https://cdn2.thecatapi.com/images/Z6mrcccZv.jpg",
+    "w": 1188,
+    "h": 792,
+    "fx": 15,
+    "fy": 15
+   }
+  ],
+  "braz": [],
+  "bslo": [
+   {
+    "id": "re7uO34hz",
+    "url": "https://cdn2.thecatapi.com/images/re7uO34hz.jpg",
+    "w": 1600,
+    "h": 2397,
+    "fx": 15,
+    "fy": 30
+   },
+   {
+    "id": "7isAO4Cav",
+    "url": "https://cdn2.thecatapi.com/images/7isAO4Cav.jpg",
+    "w": 960,
+    "h": 960,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "YZGOUtRQ1",
+    "url": "https://cdn2.thecatapi.com/images/YZGOUtRQ1.jpg",
+    "w": 1920,
+    "h": 1281,
+    "fx": 25,
+    "fy": 33
+   },
+   {
+    "id": "JWOrjbhum",
+    "url": "https://cdn2.thecatapi.com/images/JWOrjbhum.jpg",
+    "w": 768,
+    "h": 1024,
+    "fx": 36,
+    "fy": 18
+   },
+   {
+    "id": "laq3GvUgh",
+    "url": "https://cdn2.thecatapi.com/images/laq3GvUgh.jpg",
+    "w": 1600,
+    "h": 1200,
+    "fx": 22,
+    "fy": 15
+   },
+   {
+    "id": "xplMlG1PT",
+    "url": "https://cdn2.thecatapi.com/images/xplMlG1PT.jpg",
+    "w": 2048,
+    "h": 1132,
+    "fx": 23,
+    "fy": 55
+   }
+  ],
+  "bsho": [
+   {
+    "id": "HYTJQgs2M",
+    "url": "https://cdn2.thecatapi.com/images/HYTJQgs2M.jpg",
+    "w": 3264,
+    "h": 2448,
+    "fx": 20,
+    "fy": 42
+   },
+   {
+    "id": "qXypILClv",
+    "url": "https://cdn2.thecatapi.com/images/qXypILClv.jpg",
+    "w": 960,
+    "h": 826,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "GrPErz7EA",
+    "url": "https://cdn2.thecatapi.com/images/GrPErz7EA.jpg",
+    "w": 1024,
+    "h": 1024,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "M1Rh3CPp_",
+    "url": "https://cdn2.thecatapi.com/images/M1Rh3CPp_.jpg",
+    "w": 2352,
+    "h": 1568,
+    "fx": 15,
+    "fy": 22
+   },
+   {
+    "id": "1bFFj7N5c",
+    "url": "https://cdn2.thecatapi.com/images/1bFFj7N5c.jpg",
+    "w": 1600,
+    "h": 1200,
+    "fx": 30,
+    "fy": 18
+   },
+   {
+    "id": "xNuSF5YWY",
+    "url": "https://cdn2.thecatapi.com/images/xNuSF5YWY.jpg",
+    "w": 850,
+    "h": 477,
+    "fx": 15,
+    "fy": 55
+   }
+  ],
+  "brit": [],
+  "bure": [
+   {
+    "id": "92D9NZLs0",
+    "url": "https://cdn2.thecatapi.com/images/92D9NZLs0.jpg",
+    "w": 3260,
+    "h": 1685,
+    "fx": 59,
+    "fy": 36
+   },
+   {
+    "id": "4lXnnfxac",
+    "url": "https://cdn2.thecatapi.com/images/4lXnnfxac.jpg",
+    "w": 1250,
+    "h": 650,
+    "fx": 31,
+    "fy": 15
+   },
+   {
+    "id": "hj7Oh-SRY",
+    "url": "https://cdn2.thecatapi.com/images/hj7Oh-SRY.jpg",
+    "w": 1024,
+    "h": 1544,
+    "fx": 31,
+    "fy": 17
+   },
+   {
+    "id": "Mdr6QqID0",
+    "url": "https://cdn2.thecatapi.com/images/Mdr6QqID0.jpg",
+    "w": 1920,
+    "h": 1279,
+    "fx": 33,
+    "fy": 15
+   }
+  ],
+  "buri": [
+   {
+    "id": "J4Jv10E7O",
+    "url": "https://cdn2.thecatapi.com/images/J4Jv10E7O.jpg",
+    "w": 4608,
+    "h": 3072,
+    "fx": 47,
+    "fy": 39
+   },
+   {
+    "id": "r530zDuJU",
+    "url": "https://cdn2.thecatapi.com/images/r530zDuJU.jpg",
+    "w": 3504,
+    "h": 2336,
+    "fx": 33,
+    "fy": 19
+   },
+   {
+    "id": "jvg3XfEdC",
+    "url": "https://cdn2.thecatapi.com/images/jvg3XfEdC.jpg",
+    "w": 960,
+    "h": 960,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "3Wjx1Tq7X",
+    "url": "https://cdn2.thecatapi.com/images/3Wjx1Tq7X.jpg",
+    "w": 1200,
+    "h": 945,
+    "fx": 15,
+    "fy": 21
+   },
+   {
+    "id": "wgoLPWPZQ",
+    "url": "https://cdn2.thecatapi.com/images/wgoLPWPZQ.jpg",
+    "w": 1200,
+    "h": 931,
+    "fx": 26,
+    "fy": 15
+   },
+   {
+    "id": "p2U4ZXgKL",
+    "url": "https://cdn2.thecatapi.com/images/p2U4ZXgKL.jpg",
+    "w": 1664,
+    "h": 2099,
+    "fx": 17,
+    "fy": 19
+   }
+  ],
+  "burm": [],
+  "cspa": [
+   {
+    "id": "B1ERTmgph",
+    "url": "https://cdn2.thecatapi.com/images/B1ERTmgph.jpg",
+    "w": 1200,
+    "h": 688,
+    "fx": 15,
+    "fy": 31
+   }
+  ],
+  "cara": [],
+  "ctif": [
+   {
+    "id": "TR-5nAd_S",
+    "url": "https://cdn2.thecatapi.com/images/TR-5nAd_S.jpg",
+    "w": 2901,
+    "h": 2938,
+    "fx": 66,
+    "fy": 28
+   },
+   {
+    "id": "INXwfT_cp",
+    "url": "https://cdn2.thecatapi.com/images/INXwfT_cp.jpg",
+    "w": 3264,
+    "h": 2448,
+    "fx": 51,
+    "fy": 15
+   },
+   {
+    "id": "E4j4aBDx9",
+    "url": "https://cdn2.thecatapi.com/images/E4j4aBDx9.jpg",
+    "w": 2368,
+    "h": 1590,
+    "fx": 18,
+    "fy": 29
+   },
+   {
+    "id": "XAvnPwmqZ",
+    "url": "https://cdn2.thecatapi.com/images/XAvnPwmqZ.jpg",
+    "w": 1200,
+    "h": 797,
+    "fx": 20,
+    "fy": 15
+   }
+  ],
+  "char": [
+   {
+    "id": "3-DZDkDGa",
+    "url": "https://cdn2.thecatapi.com/images/3-DZDkDGa.jpg",
+    "w": 4272,
+    "h": 2848,
+    "fx": 44,
+    "fy": 44
+   },
+   {
+    "id": "j6oFGLpRG",
+    "url": "https://cdn2.thecatapi.com/images/j6oFGLpRG.jpg",
+    "w": 768,
+    "h": 1024,
+    "fx": 21,
+    "fy": 17
+   },
+   {
+    "id": "rw09G0crt",
+    "url": "https://cdn2.thecatapi.com/images/rw09G0crt.jpg",
+    "w": 2400,
+    "h": 1714,
+    "fx": 51,
+    "fy": 19
+   },
+   {
+    "id": "Y4YIOqGKb",
+    "url": "https://cdn2.thecatapi.com/images/Y4YIOqGKb.jpg",
+    "w": 1728,
+    "h": 1296,
+    "fx": 23,
+    "fy": 34
+   },
+   {
+    "id": "SpioNJPsd",
+    "url": "https://cdn2.thecatapi.com/images/SpioNJPsd.jpg",
+    "w": 2496,
+    "h": 1664,
+    "fx": 53,
+    "fy": 67
+   },
+   {
+    "id": "qinVu0VLV",
+    "url": "https://cdn2.thecatapi.com/images/qinVu0VLV.jpg",
+    "w": 862,
+    "h": 1077,
+    "fx": 15,
+    "fy": 36
+   }
+  ],
+  "chau": [
+   {
+    "id": "snxE5_PPX",
+    "url": "https://cdn2.thecatapi.com/images/snxE5_PPX.jpg",
+    "w": 3888,
+    "h": 2592,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "cPDuEX5tZ",
+    "url": "https://cdn2.thecatapi.com/images/cPDuEX5tZ.jpg",
+    "w": 1280,
+    "h": 853,
+    "fx": 26,
+    "fy": 26
+   },
+   {
+    "id": "5i_-8rPKS",
+    "url": "https://cdn2.thecatapi.com/images/5i_-8rPKS.jpg",
+    "w": 1280,
+    "h": 818,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "r0s90j0I8",
+    "url": "https://cdn2.thecatapi.com/images/r0s90j0I8.jpg",
+    "w": 2093,
+    "h": 2105,
+    "fx": 46,
+    "fy": 15
+   },
+   {
+    "id": "ZaZwqFsgj",
+    "url": "https://cdn2.thecatapi.com/images/ZaZwqFsgj.jpg",
+    "w": 720,
+    "h": 480,
+    "fx": 15,
+    "fy": 33
+   },
+   {
+    "id": "VT9NOyJqk",
+    "url": "https://cdn2.thecatapi.com/images/VT9NOyJqk.jpg",
+    "w": 3888,
+    "h": 2592,
+    "fx": 23,
+    "fy": 25
+   }
+  ],
+  "chas": [],
+  "chee": [
+   {
+    "id": "L-aDi29wP",
+    "url": "https://cdn2.thecatapi.com/images/L-aDi29wP.jpg",
+    "w": 3264,
+    "h": 2448,
+    "fx": 26,
+    "fy": 28
+   },
+   {
+    "id": "djnExlK9y",
+    "url": "https://cdn2.thecatapi.com/images/djnExlK9y.jpg",
+    "w": 1080,
+    "h": 810,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "hV2A_LW2n",
+    "url": "https://cdn2.thecatapi.com/images/hV2A_LW2n.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "mNOdlAkXR",
+    "url": "https://cdn2.thecatapi.com/images/mNOdlAkXR.jpg",
+    "w": 1280,
+    "h": 800,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "yPmEpKmnR",
+    "url": "https://cdn2.thecatapi.com/images/yPmEpKmnR.jpg",
+    "w": 1920,
+    "h": 1320,
+    "fx": 15,
+    "fy": 26
+   },
+   {
+    "id": "U-B3L9JWm",
+    "url": "https://cdn2.thecatapi.com/images/U-B3L9JWm.jpg",
+    "w": 1395,
+    "h": 924,
+    "fx": 21,
+    "fy": 26
+   }
+  ],
+  "csho": [
+   {
+    "id": "lOl0J96On",
+    "url": "https://cdn2.thecatapi.com/images/lOl0J96On.jpg",
+    "w": 2448,
+    "h": 3264,
+    "fx": 31,
+    "fy": 15
+   },
+   {
+    "id": "aAf-WmnRl",
+    "url": "https://cdn2.thecatapi.com/images/aAf-WmnRl.jpg",
+    "w": 3960,
+    "h": 1871,
+    "fx": 17,
+    "fy": 19
+   },
+   {
+    "id": "1nOZPY4uI",
+    "url": "https://cdn2.thecatapi.com/images/1nOZPY4uI.jpg",
+    "w": 640,
+    "h": 480,
+    "fx": 31,
+    "fy": 25
+   },
+   {
+    "id": "oSpqGyUDS",
+    "url": "https://cdn2.thecatapi.com/images/oSpqGyUDS.jpg",
+    "w": 1363,
+    "h": 1600,
+    "fx": 26,
+    "fy": 34
+   },
+   {
+    "id": "BDMOZo668",
+    "url": "https://cdn2.thecatapi.com/images/BDMOZo668.jpg",
+    "w": 1250,
+    "h": 702,
+    "fx": 31,
+    "fy": 15
+   },
+   {
+    "id": "Il3qBc63U",
+    "url": "https://cdn2.thecatapi.com/images/Il3qBc63U.jpg",
+    "w": 1000,
+    "h": 1000,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "crex": [
+   {
+    "id": "o81wWm6-Z",
+    "url": "https://cdn2.thecatapi.com/images/o81wWm6-Z.jpg",
+    "w": 3006,
+    "h": 2442,
+    "fx": 28,
+    "fy": 21
+   },
+   {
+    "id": "8CuEPFNuD",
+    "url": "https://cdn2.thecatapi.com/images/8CuEPFNuD.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "kOAHCDEzA",
+    "url": "https://cdn2.thecatapi.com/images/kOAHCDEzA.jpg",
+    "w": 2048,
+    "h": 1365,
+    "fx": 15,
+    "fy": 21
+   },
+   {
+    "id": "bAiN3T-rs",
+    "url": "https://cdn2.thecatapi.com/images/bAiN3T-rs.jpg",
+    "w": 1024,
+    "h": 788,
+    "fx": 24,
+    "fy": 28
+   },
+   {
+    "id": "DmP9GCClC",
+    "url": "https://cdn2.thecatapi.com/images/DmP9GCClC.jpg",
+    "w": 2987,
+    "h": 1994,
+    "fx": 24,
+    "fy": 36
+   },
+   {
+    "id": "jdccz3ngk",
+    "url": "https://cdn2.thecatapi.com/images/jdccz3ngk.jpg",
+    "w": 1140,
+    "h": 1671,
+    "fx": 16,
+    "fy": 33
+   }
+  ],
+  "cymr": [
+   {
+    "id": "GQ61BDToD",
+    "url": "https://cdn2.thecatapi.com/images/GQ61BDToD.jpg",
+    "w": 3504,
+    "h": 2336,
+    "fx": 29,
+    "fy": 19
+   },
+   {
+    "id": "dSiKP0JWG",
+    "url": "https://cdn2.thecatapi.com/images/dSiKP0JWG.jpg",
+    "w": 1600,
+    "h": 1088,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "3dbtapCWM",
+    "url": "https://cdn2.thecatapi.com/images/3dbtapCWM.jpg",
+    "w": 1440,
+    "h": 900,
+    "fx": 26,
+    "fy": 15
+   },
+   {
+    "id": "WXcD6qZEn",
+    "url": "https://cdn2.thecatapi.com/images/WXcD6qZEn.jpg",
+    "w": 1403,
+    "h": 908,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "OLP-tyC2i",
+    "url": "https://cdn2.thecatapi.com/images/OLP-tyC2i.jpg",
+    "w": 889,
+    "h": 1000,
+    "fx": 24,
+    "fy": 35
+   },
+   {
+    "id": "-y_6SBPrw",
+    "url": "https://cdn2.thecatapi.com/images/-y_6SBPrw.jpg",
+    "w": 1280,
+    "h": 959,
+    "fx": 15,
+    "fy": 32
+   }
+  ],
+  "cypr": [
+   {
+    "id": "S97Qj5YYO",
+    "url": "https://cdn2.thecatapi.com/images/S97Qj5YYO.jpg",
+    "w": 3318,
+    "h": 2212,
+    "fx": 29,
+    "fy": 34
+   },
+   {
+    "id": "tJbzb7FKo",
+    "url": "https://cdn2.thecatapi.com/images/tJbzb7FKo.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "cruhNBsv1",
+    "url": "https://cdn2.thecatapi.com/images/cruhNBsv1.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 20,
+    "fy": 18
+   },
+   {
+    "id": "_PEqOH17A",
+    "url": "https://cdn2.thecatapi.com/images/_PEqOH17A.jpg",
+    "w": 800,
+    "h": 1067,
+    "fx": 15,
+    "fy": 15
+   }
+  ],
+  "drex": [
+   {
+    "id": "lJHXU7DlQ",
+    "url": "https://cdn2.thecatapi.com/images/lJHXU7DlQ.jpg",
+    "w": 3264,
+    "h": 2448,
+    "fx": 15,
+    "fy": 39
+   },
+   {
+    "id": "uUGt0UBzF",
+    "url": "https://cdn2.thecatapi.com/images/uUGt0UBzF.jpg",
+    "w": 1800,
+    "h": 1800,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "jnqO9lwG2",
+    "url": "https://cdn2.thecatapi.com/images/jnqO9lwG2.jpg",
+    "w": 845,
+    "h": 583,
+    "fx": 19,
+    "fy": 17
+   },
+   {
+    "id": "udJaUVCHZ",
+    "url": "https://cdn2.thecatapi.com/images/udJaUVCHZ.jpg",
+    "w": 1100,
+    "h": 788,
+    "fx": 16,
+    "fy": 15
+   },
+   {
+    "id": "4RzEwvyzz",
+    "url": "https://cdn2.thecatapi.com/images/4RzEwvyzz.png",
+    "w": 1729,
+    "h": 1160,
+    "fx": 17,
+    "fy": 15
+   },
+   {
+    "id": "Zhv2xfZFH",
+    "url": "https://cdn2.thecatapi.com/images/Zhv2xfZFH.jpg",
+    "w": 1280,
+    "h": 720,
+    "fx": 15,
+    "fy": 43
+   }
+  ],
+  "doml": [],
+  "domm": [],
+  "doms": [],
+  "dons": [
+   {
+    "id": "Z9zxhFVdw",
+    "url": "https://cdn2.thecatapi.com/images/Z9zxhFVdw.jpg",
+    "w": 3789,
+    "h": 2873,
+    "fx": 15,
+    "fy": 39
+   },
+   {
+    "id": "KWVenr3Pq",
+    "url": "https://cdn2.thecatapi.com/images/KWVenr3Pq.jpg",
+    "w": 1080,
+    "h": 1253,
+    "fx": 20,
+    "fy": 15
+   },
+   {
+    "id": "3KG57GfMW",
+    "url": "https://cdn2.thecatapi.com/images/3KG57GfMW.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "lihu": [
+   {
+    "id": "KrDYENsA3",
+    "url": "https://cdn2.thecatapi.com/images/KrDYENsA3.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 37,
+    "fy": 19
+   },
+   {
+    "id": "DUxU01IY5",
+    "url": "https://cdn2.thecatapi.com/images/DUxU01IY5.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "BQMSld0A0",
+    "url": "https://cdn2.thecatapi.com/images/BQMSld0A0.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "xYLoht4o_",
+    "url": "https://cdn2.thecatapi.com/images/xYLoht4o_.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "POPfuPq8t",
+    "url": "https://cdn2.thecatapi.com/images/POPfuPq8t.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 25,
+    "fy": 38
+   },
+   {
+    "id": "mjeF1hs8v",
+    "url": "https://cdn2.thecatapi.com/images/mjeF1hs8v.jpg",
+    "w": 800,
+    "h": 528,
+    "fx": 42,
+    "fy": 23
+   }
+  ],
+  "dwel": [],
+  "emau": [
+   {
+    "id": "4_AdeyZUv",
+    "url": "https://cdn2.thecatapi.com/images/4_AdeyZUv.jpg",
+    "w": 3888,
+    "h": 2592,
+    "fx": 28,
+    "fy": 15
+   },
+   {
+    "id": "TuSyTkt2n",
+    "url": "https://cdn2.thecatapi.com/images/TuSyTkt2n.jpg",
+    "w": 2475,
+    "h": 2147,
+    "fx": 20,
+    "fy": 15
+   },
+   {
+    "id": "Y2MO5GWHO",
+    "url": "https://cdn2.thecatapi.com/images/Y2MO5GWHO.jpg",
+    "w": 700,
+    "h": 443,
+    "fx": 50,
+    "fy": 16
+   },
+   {
+    "id": "2UAyYkzVK",
+    "url": "https://cdn2.thecatapi.com/images/2UAyYkzVK.jpg",
+    "w": 2890,
+    "h": 2271,
+    "fx": 16,
+    "fy": 15
+   },
+   {
+    "id": "4iJauwTck",
+    "url": "https://cdn2.thecatapi.com/images/4iJauwTck.jpg",
+    "w": 1280,
+    "h": 720,
+    "fx": 18,
+    "fy": 31
+   },
+   {
+    "id": "BZ59tdOo6",
+    "url": "https://cdn2.thecatapi.com/images/BZ59tdOo6.jpg",
+    "w": 1280,
+    "h": 720,
+    "fx": 15,
+    "fy": 21
+   }
+  ],
+  "elfc": [],
+  "ebur": [
+   {
+    "id": "YOjBThApG",
+    "url": "https://cdn2.thecatapi.com/images/YOjBThApG.jpg",
+    "w": 2838,
+    "h": 4518,
+    "fx": 28,
+    "fy": 15
+   },
+   {
+    "id": "DZzcGANt5",
+    "url": "https://cdn2.thecatapi.com/images/DZzcGANt5.jpg",
+    "w": 2048,
+    "h": 1365,
+    "fx": 15,
+    "fy": 19
+   },
+   {
+    "id": "d8sbdRtLJ",
+    "url": "https://cdn2.thecatapi.com/images/d8sbdRtLJ.jpg",
+    "w": 1050,
+    "h": 1126,
+    "fx": 30,
+    "fy": 59
+   },
+   {
+    "id": "5hmYjVhib",
+    "url": "https://cdn2.thecatapi.com/images/5hmYjVhib.jpg",
+    "w": 935,
+    "h": 1000,
+    "fx": 16,
+    "fy": 15
+   },
+   {
+    "id": "oLtx9gsxx",
+    "url": "https://cdn2.thecatapi.com/images/oLtx9gsxx.jpg",
+    "w": 4027,
+    "h": 2680,
+    "fx": 16,
+    "fy": 15
+   },
+   {
+    "id": "daHxeTPgZ",
+    "url": "https://cdn2.thecatapi.com/images/daHxeTPgZ.jpg",
+    "w": 800,
+    "h": 547,
+    "fx": 22,
+    "fy": 24
+   }
+  ],
+  "eshr": [],
+  "exlh": [],
+  "esho": [
+   {
+    "id": "ySzdVwyb1",
+    "url": "https://cdn2.thecatapi.com/images/ySzdVwyb1.jpg",
+    "w": 4640,
+    "h": 2610,
+    "fx": 24,
+    "fy": 23
+   },
+   {
+    "id": "dVujvBqnu",
+    "url": "https://cdn2.thecatapi.com/images/dVujvBqnu.jpg",
+    "w": 1024,
+    "h": 999,
+    "fx": 15,
+    "fy": 62
+   },
+   {
+    "id": "YnPrYEmfe",
+    "url": "https://cdn2.thecatapi.com/images/YnPrYEmfe.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 40,
+    "fy": 40
+   },
+   {
+    "id": "2N4PhyqTG",
+    "url": "https://cdn2.thecatapi.com/images/2N4PhyqTG.jpg",
+    "w": 800,
+    "h": 600,
+    "fx": 15,
+    "fy": 52
+   },
+   {
+    "id": "cw18Op1Ok",
+    "url": "https://cdn2.thecatapi.com/images/cw18Op1Ok.jpg",
+    "w": 1500,
+    "h": 1000,
+    "fx": 24,
+    "fy": 32
+   },
+   {
+    "id": "s_SbQ3Xju",
+    "url": "https://cdn2.thecatapi.com/images/s_SbQ3Xju.jpg",
+    "w": 1114,
+    "h": 900,
+    "fx": 23,
+    "fy": 17
+   }
+  ],
+  "fold": [],
+  "gene": [],
+  "germ": [],
+  "hbro": [
+   {
+    "id": "gQggWSR5I",
+    "url": "https://cdn2.thecatapi.com/images/gQggWSR5I.jpg",
+    "w": 4081,
+    "h": 2721,
+    "fx": 46,
+    "fy": 31
+   },
+   {
+    "id": "njK25knLH",
+    "url": "https://cdn2.thecatapi.com/images/njK25knLH.jpg",
+    "w": 1024,
+    "h": 823,
+    "fx": 19,
+    "fy": 38
+   },
+   {
+    "id": "iFH9iWpDg",
+    "url": "https://cdn2.thecatapi.com/images/iFH9iWpDg.jpg",
+    "w": 2048,
+    "h": 1365,
+    "fx": 19,
+    "fy": 15
+   },
+   {
+    "id": "gLfmOKHCA",
+    "url": "https://cdn2.thecatapi.com/images/gLfmOKHCA.jpg",
+    "w": 1244,
+    "h": 1600,
+    "fx": 16,
+    "fy": 15
+   },
+   {
+    "id": "9JisqWsnL",
+    "url": "https://cdn2.thecatapi.com/images/9JisqWsnL.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 34,
+    "fy": 15
+   },
+   {
+    "id": "L6d7rFyt1",
+    "url": "https://cdn2.thecatapi.com/images/L6d7rFyt1.jpg",
+    "w": 1200,
+    "h": 799,
+    "fx": 15,
+    "fy": 30
+   }
+  ],
+  "high": [],
+  "hima": [
+   {
+    "id": "KBjPMWOsK",
+    "url": "https://cdn2.thecatapi.com/images/KBjPMWOsK.jpg",
+    "w": 5797,
+    "h": 3854,
+    "fx": 29,
+    "fy": 19
+   },
+   {
+    "id": "To-gnSRLr",
+    "url": "https://cdn2.thecatapi.com/images/To-gnSRLr.jpg",
+    "w": 1469,
+    "h": 2047,
+    "fx": 18,
+    "fy": 23
+   },
+   {
+    "id": "kg7nc0poR",
+    "url": "https://cdn2.thecatapi.com/images/kg7nc0poR.jpg",
+    "w": 3264,
+    "h": 2448,
+    "fx": 36,
+    "fy": 20
+   },
+   {
+    "id": "ajWdNxBwN",
+    "url": "https://cdn2.thecatapi.com/images/ajWdNxBwN.jpg",
+    "w": 912,
+    "h": 920,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "me56sI74P",
+    "url": "https://cdn2.thecatapi.com/images/me56sI74P.jpg",
+    "w": 736,
+    "h": 1104,
+    "fx": 26,
+    "fy": 15
+   },
+   {
+    "id": "lZOJKmkxY",
+    "url": "https://cdn2.thecatapi.com/images/lZOJKmkxY.jpg",
+    "w": 2309,
+    "h": 1299,
+    "fx": 35,
+    "fy": 15
+   }
+  ],
+  "jbob": [
+   {
+    "id": "Sw_EWWLW-",
+    "url": "https://cdn2.thecatapi.com/images/Sw_EWWLW-.jpg",
+    "w": 3949,
+    "h": 3949,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "-tm9-znzl",
+    "url": "https://cdn2.thecatapi.com/images/-tm9-znzl.jpg",
+    "w": 1125,
+    "h": 750,
+    "fx": 21,
+    "fy": 31
+   },
+   {
+    "id": "PN0d8Zqg7",
+    "url": "https://cdn2.thecatapi.com/images/PN0d8Zqg7.jpg",
+    "w": 994,
+    "h": 1379,
+    "fx": 22,
+    "fy": 28
+   },
+   {
+    "id": "R68eywp-W",
+    "url": "https://cdn2.thecatapi.com/images/R68eywp-W.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 17,
+    "fy": 15
+   },
+   {
+    "id": "86jwAC0vv",
+    "url": "https://cdn2.thecatapi.com/images/86jwAC0vv.jpg",
+    "w": 1384,
+    "h": 1022,
+    "fx": 41,
+    "fy": 27
+   },
+   {
+    "id": "StMwZZnDP",
+    "url": "https://cdn2.thecatapi.com/images/StMwZZnDP.jpg",
+    "w": 1440,
+    "h": 900,
+    "fx": 15,
+    "fy": 15
+   }
+  ],
+  "java": [
+   {
+    "id": "BTiGuPOqW",
+    "url": "https://cdn2.thecatapi.com/images/BTiGuPOqW.jpg",
+    "w": 3264,
+    "h": 2448,
+    "fx": 20,
+    "fy": 26
+   },
+   {
+    "id": "s6l9xck-Q",
+    "url": "https://cdn2.thecatapi.com/images/s6l9xck-Q.jpg",
+    "w": 1600,
+    "h": 1200,
+    "fx": 40,
+    "fy": 22
+   },
+   {
+    "id": "fWbeAxpQH",
+    "url": "https://cdn2.thecatapi.com/images/fWbeAxpQH.jpg",
+    "w": 1100,
+    "h": 733,
+    "fx": 25,
+    "fy": 15
+   },
+   {
+    "id": "UYBsKV2Gg",
+    "url": "https://cdn2.thecatapi.com/images/UYBsKV2Gg.jpg",
+    "w": 1616,
+    "h": 1536,
+    "fx": 35,
+    "fy": 15
+   },
+   {
+    "id": "j8Z2_Alac",
+    "url": "https://cdn2.thecatapi.com/images/j8Z2_Alac.jpg",
+    "w": 1000,
+    "h": 1000,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "P-Zyb-4BZ",
+    "url": "https://cdn2.thecatapi.com/images/P-Zyb-4BZ.jpg",
+    "w": 1920,
+    "h": 885,
+    "fx": 23,
+    "fy": 17
+   }
+  ],
+  "kana": [],
+  "kell": [],
+  "khao": [
+   {
+    "id": "iyFN2mF8l",
+    "url": "https://cdn2.thecatapi.com/images/iyFN2mF8l.jpg",
+    "w": 1858,
+    "h": 1565,
+    "fx": 28,
+    "fy": 20
+   },
+   {
+    "id": "165ok6ESN",
+    "url": "https://cdn2.thecatapi.com/images/165ok6ESN.jpg",
+    "w": 1555,
+    "h": 1037,
+    "fx": 25,
+    "fy": 31
+   }
+  ],
+  "kora": [
+   {
+    "id": "1TcC-kiI1",
+    "url": "https://cdn2.thecatapi.com/images/1TcC-kiI1.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 57,
+    "fy": 15
+   },
+   {
+    "id": "k8T7xGG5O",
+    "url": "https://cdn2.thecatapi.com/images/k8T7xGG5O.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "CWGNkdpA7",
+    "url": "https://cdn2.thecatapi.com/images/CWGNkdpA7.jpg",
+    "w": 654,
+    "h": 549,
+    "fx": 29,
+    "fy": 15
+   },
+   {
+    "id": "xPuWATvp9",
+    "url": "https://cdn2.thecatapi.com/images/xPuWATvp9.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 22,
+    "fy": 35
+   },
+   {
+    "id": "BbsNPAeop",
+    "url": "https://cdn2.thecatapi.com/images/BbsNPAeop.jpg",
+    "w": 645,
+    "h": 380,
+    "fx": 15,
+    "fy": 55
+   },
+   {
+    "id": "OfIuuOv07",
+    "url": "https://cdn2.thecatapi.com/images/OfIuuOv07.jpg",
+    "w": 1200,
+    "h": 650,
+    "fx": 15,
+    "fy": 35
+   }
+  ],
+  "kuri": [
+   {
+    "id": "NZpO4pU56M",
+    "url": "https://cdn2.thecatapi.com/images/NZpO4pU56M.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "-c_yibZBu",
+    "url": "https://cdn2.thecatapi.com/images/-c_yibZBu.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "lape": [
+   {
+    "id": "in-CD5LH5",
+    "url": "https://cdn2.thecatapi.com/images/in-CD5LH5.jpg",
+    "w": 4256,
+    "h": 2832,
+    "fx": 17,
+    "fy": 42
+   },
+   {
+    "id": "g4vhUKcZX",
+    "url": "https://cdn2.thecatapi.com/images/g4vhUKcZX.jpg",
+    "w": 1136,
+    "h": 852,
+    "fx": 20,
+    "fy": 15
+   },
+   {
+    "id": "4hZdbV_8E",
+    "url": "https://cdn2.thecatapi.com/images/4hZdbV_8E.jpg",
+    "w": 1141,
+    "h": 709,
+    "fx": 18,
+    "fy": 41
+   },
+   {
+    "id": "fA-hvyvz1",
+    "url": "https://cdn2.thecatapi.com/images/fA-hvyvz1.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 20,
+    "fy": 40
+   },
+   {
+    "id": "-d7GY-cPZ",
+    "url": "https://cdn2.thecatapi.com/images/-d7GY-cPZ.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 15,
+    "fy": 33
+   },
+   {
+    "id": "bL3lrUi1A",
+    "url": "https://cdn2.thecatapi.com/images/bL3lrUi1A.jpg",
+    "w": 1280,
+    "h": 720,
+    "fx": 43,
+    "fy": 25
+   }
+  ],
+  "lyko": [],
+  "mcoo": [
+   {
+    "id": "jyjEWK7xp",
+    "url": "https://cdn2.thecatapi.com/images/jyjEWK7xp.jpg",
+    "w": 3144,
+    "h": 2448,
+    "fx": 33,
+    "fy": 16
+   },
+   {
+    "id": "MmiojCuKC",
+    "url": "https://cdn2.thecatapi.com/images/MmiojCuKC.jpg",
+    "w": 640,
+    "h": 800,
+    "fx": 27,
+    "fy": 28
+   },
+   {
+    "id": "OCoeP14wW",
+    "url": "https://cdn2.thecatapi.com/images/OCoeP14wW.jpg",
+    "w": 630,
+    "h": 817,
+    "fx": 15,
+    "fy": 21
+   },
+   {
+    "id": "HD4lZB6BI",
+    "url": "https://cdn2.thecatapi.com/images/HD4lZB6BI.jpg",
+    "w": 1500,
+    "h": 2000,
+    "fx": 32,
+    "fy": 23
+   },
+   {
+    "id": "MtgMsxPw9",
+    "url": "https://cdn2.thecatapi.com/images/MtgMsxPw9.jpg",
+    "w": 1800,
+    "h": 2100,
+    "fx": 31,
+    "fy": 69
+   },
+   {
+    "id": "PoZIVJ124",
+    "url": "https://cdn2.thecatapi.com/images/PoZIVJ124.jpg",
+    "w": 1000,
+    "h": 897,
+    "fx": 17,
+    "fy": 27
+   }
+  ],
+  "mala": [],
+  "manx": [
+   {
+    "id": "i9HsL15nJ",
+    "url": "https://cdn2.thecatapi.com/images/i9HsL15nJ.jpg",
+    "w": 3024,
+    "h": 4032,
+    "fx": 15,
+    "fy": 32
+   },
+   {
+    "id": "gU5wUcOuo",
+    "url": "https://cdn2.thecatapi.com/images/gU5wUcOuo.jpg",
+    "w": 1200,
+    "h": 800,
+    "fx": 21,
+    "fy": 26
+   },
+   {
+    "id": "Rscv6E1c5",
+    "url": "https://cdn2.thecatapi.com/images/Rscv6E1c5.jpg",
+    "w": 1200,
+    "h": 900,
+    "fx": 34,
+    "fy": 15
+   },
+   {
+    "id": "AoDtRhYcL",
+    "url": "https://cdn2.thecatapi.com/images/AoDtRhYcL.jpg",
+    "w": 1024,
+    "h": 683,
+    "fx": 28,
+    "fy": 25
+   },
+   {
+    "id": "P2NukwZ0n",
+    "url": "https://cdn2.thecatapi.com/images/P2NukwZ0n.jpg",
+    "w": 1200,
+    "h": 795,
+    "fx": 16,
+    "fy": 19
+   },
+   {
+    "id": "OXMyfVPcP",
+    "url": "https://cdn2.thecatapi.com/images/OXMyfVPcP.jpg",
+    "w": 1600,
+    "h": 1511,
+    "fx": 26,
+    "fy": 40
+   }
+  ],
+  "mins": [],
+  "minu": [],
+  "munc": [
+   {
+    "id": "vDFI6jI2O",
+    "url": "https://cdn2.thecatapi.com/images/vDFI6jI2O.jpg",
+    "w": 3555,
+    "h": 3031,
+    "fx": 24,
+    "fy": 37
+   },
+   {
+    "id": "8LxU2Gwmo",
+    "url": "https://cdn2.thecatapi.com/images/8LxU2Gwmo.jpg",
+    "w": 1600,
+    "h": 1200,
+    "fx": 25,
+    "fy": 30
+   },
+   {
+    "id": "mZZzMlywy",
+    "url": "https://cdn2.thecatapi.com/images/mZZzMlywy.jpg",
+    "w": 950,
+    "h": 950,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "cyel25FXN",
+    "url": "https://cdn2.thecatapi.com/images/cyel25FXN.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "njaF1fyqI",
+    "url": "https://cdn2.thecatapi.com/images/njaF1fyqI.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "a1g4Ycw-z",
+    "url": "https://cdn2.thecatapi.com/images/a1g4Ycw-z.jpg",
+    "w": 2407,
+    "h": 2407,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "napo": [],
+  "nebe": [
+   {
+    "id": "KpHqQPUPW",
+    "url": "https://cdn2.thecatapi.com/images/KpHqQPUPW.jpg",
+    "w": 3024,
+    "h": 4032,
+    "fx": 15,
+    "fy": 45
+   },
+   {
+    "id": "C2JowzG1O",
+    "url": "https://cdn2.thecatapi.com/images/C2JowzG1O.jpg",
+    "w": 640,
+    "h": 960,
+    "fx": 22,
+    "fy": 15
+   },
+   {
+    "id": "OGTWqNNOt",
+    "url": "https://cdn2.thecatapi.com/images/OGTWqNNOt.jpg",
+    "w": 1150,
+    "h": 862,
+    "fx": 15,
+    "fy": 36
+   },
+   {
+    "id": "xObEK7X1-",
+    "url": "https://cdn2.thecatapi.com/images/xObEK7X1-.jpg",
+    "w": 1949,
+    "h": 2048,
+    "fx": 18,
+    "fy": 51
+   },
+   {
+    "id": "qtgE7qRvw",
+    "url": "https://cdn2.thecatapi.com/images/qtgE7qRvw.jpg",
+    "w": 1366,
+    "h": 768,
+    "fx": 19,
+    "fy": 17
+   },
+   {
+    "id": "OUfeISEoi",
+    "url": "https://cdn2.thecatapi.com/images/OUfeISEoi.jpg",
+    "w": 1200,
+    "h": 798,
+    "fx": 20,
+    "fy": 24
+   }
+  ],
+  "norw": [
+   {
+    "id": "rBuGgH_Wj",
+    "url": "https://cdn2.thecatapi.com/images/rBuGgH_Wj.jpg",
+    "w": 3840,
+    "h": 2160,
+    "fx": 31,
+    "fy": 57
+   },
+   {
+    "id": "PEgob-hhL",
+    "url": "https://cdn2.thecatapi.com/images/PEgob-hhL.jpg",
+    "w": 852,
+    "h": 1136,
+    "fx": 22,
+    "fy": 15
+   },
+   {
+    "id": "YYIPhGhCb",
+    "url": "https://cdn2.thecatapi.com/images/YYIPhGhCb.jpg",
+    "w": 819,
+    "h": 1024,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "wLFWzKgkf",
+    "url": "https://cdn2.thecatapi.com/images/wLFWzKgkf.jpg",
+    "w": 819,
+    "h": 1024,
+    "fx": 29,
+    "fy": 15
+   },
+   {
+    "id": "JqnhXlI_b",
+    "url": "https://cdn2.thecatapi.com/images/JqnhXlI_b.jpg",
+    "w": 1024,
+    "h": 964,
+    "fx": 27,
+    "fy": 29
+   },
+   {
+    "id": "ZUumV9qmY",
+    "url": "https://cdn2.thecatapi.com/images/ZUumV9qmY.jpg",
+    "w": 1446,
+    "h": 1600,
+    "fx": 18,
+    "fy": 15
+   }
+  ],
+  "ocic": [
+   {
+    "id": "HksHrR8-9",
+    "url": "https://cdn2.thecatapi.com/images/HksHrR8-9.jpg",
+    "w": 3704,
+    "h": 2469,
+    "fx": 37,
+    "fy": 32
+   },
+   {
+    "id": "JAx-08Y0n",
+    "url": "https://cdn2.thecatapi.com/images/JAx-08Y0n.jpg",
+    "w": 1280,
+    "h": 853,
+    "fx": 15,
+    "fy": 26
+   },
+   {
+    "id": "jMZuST3W6",
+    "url": "https://cdn2.thecatapi.com/images/jMZuST3W6.jpg",
+    "w": 1280,
+    "h": 960,
+    "fx": 46,
+    "fy": 23
+   },
+   {
+    "id": "aJAsEA8uU",
+    "url": "https://cdn2.thecatapi.com/images/aJAsEA8uU.jpg",
+    "w": 1280,
+    "h": 853,
+    "fx": 15,
+    "fy": 36
+   },
+   {
+    "id": "N9XTfbgI6",
+    "url": "https://cdn2.thecatapi.com/images/N9XTfbgI6.jpg",
+    "w": 1366,
+    "h": 768,
+    "fx": 26,
+    "fy": 15
+   },
+   {
+    "id": "fLJYKez7P",
+    "url": "https://cdn2.thecatapi.com/images/fLJYKez7P.jpg",
+    "w": 841,
+    "h": 1024,
+    "fx": 21,
+    "fy": 15
+   }
+  ],
+  "ojos": [],
+  "ori1": [],
+  "orie": [
+   {
+    "id": "xbW2bsXfK",
+    "url": "https://cdn2.thecatapi.com/images/xbW2bsXfK.jpg",
+    "w": 2448,
+    "h": 3264,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "0eVXT8_lb",
+    "url": "https://cdn2.thecatapi.com/images/0eVXT8_lb.jpg",
+    "w": 1396,
+    "h": 1080,
+    "fx": 22,
+    "fy": 46
+   },
+   {
+    "id": "UYp1-LQxI",
+    "url": "https://cdn2.thecatapi.com/images/UYp1-LQxI.jpg",
+    "w": 768,
+    "h": 1024,
+    "fx": 16,
+    "fy": 16
+   },
+   {
+    "id": "Mt-cUeiUY",
+    "url": "https://cdn2.thecatapi.com/images/Mt-cUeiUY.jpg",
+    "w": 1654,
+    "h": 2302,
+    "fx": 39,
+    "fy": 29
+   },
+   {
+    "id": "6y4uxeRjW",
+    "url": "https://cdn2.thecatapi.com/images/6y4uxeRjW.jpg",
+    "w": 3264,
+    "h": 2448,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "9FEol9vDh",
+    "url": "https://cdn2.thecatapi.com/images/9FEol9vDh.jpg",
+    "w": 3402,
+    "h": 2268,
+    "fx": 18,
+    "fy": 21
+   }
+  ],
+  "pant": [],
+  "pers": [
+   {
+    "id": "Pqtwt4FCq",
+    "url": "https://cdn2.thecatapi.com/images/Pqtwt4FCq.jpg",
+    "w": 3864,
+    "h": 2577,
+    "fx": 28,
+    "fy": 20
+   },
+   {
+    "id": "RhBsBQg6y",
+    "url": "https://cdn2.thecatapi.com/images/RhBsBQg6y.jpg",
+    "w": 1200,
+    "h": 800,
+    "fx": 30,
+    "fy": 15
+   },
+   {
+    "id": "d_RzH-Zft",
+    "url": "https://cdn2.thecatapi.com/images/d_RzH-Zft.jpg",
+    "w": 1691,
+    "h": 1123,
+    "fx": 41,
+    "fy": 20
+   },
+   {
+    "id": "-Zfz5z2jK",
+    "url": "https://cdn2.thecatapi.com/images/-Zfz5z2jK.jpg",
+    "w": 1691,
+    "h": 1123,
+    "fx": 41,
+    "fy": 20
+   },
+   {
+    "id": "AYfFc4vOB",
+    "url": "https://cdn2.thecatapi.com/images/AYfFc4vOB.jpg",
+    "w": 1280,
+    "h": 859,
+    "fx": 15,
+    "fy": 35
+   },
+   {
+    "id": "e7-hS3gey",
+    "url": "https://cdn2.thecatapi.com/images/e7-hS3gey.jpg",
+    "w": 1400,
+    "h": 1050,
+    "fx": 23,
+    "fy": 46
+   }
+  ],
+  "pete": [],
+  "pixi": [
+   {
+    "id": "fAYgJmLM8",
+    "url": "https://cdn2.thecatapi.com/images/fAYgJmLM8.jpg",
+    "w": 3072,
+    "h": 2304,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "vjJDjiXQQ",
+    "url": "https://cdn2.thecatapi.com/images/vjJDjiXQQ.jpg",
+    "w": 1024,
+    "h": 1725,
+    "fx": 27,
+    "fy": 15
+   },
+   {
+    "id": "n6iJQcVtD",
+    "url": "https://cdn2.thecatapi.com/images/n6iJQcVtD.jpg",
+    "w": 1920,
+    "h": 1353,
+    "fx": 28,
+    "fy": 25
+   },
+   {
+    "id": "HxENheThN",
+    "url": "https://cdn2.thecatapi.com/images/HxENheThN.jpg",
+    "w": 1280,
+    "h": 965,
+    "fx": 43,
+    "fy": 64
+   },
+   {
+    "id": "qk67_tUAZ",
+    "url": "https://cdn2.thecatapi.com/images/qk67_tUAZ.jpg",
+    "w": 1600,
+    "h": 751,
+    "fx": 33,
+    "fy": 28
+   },
+   {
+    "id": "b4paC3RGM",
+    "url": "https://cdn2.thecatapi.com/images/b4paC3RGM.jpg",
+    "w": 2017,
+    "h": 1344,
+    "fx": 15,
+    "fy": 39
+   }
+  ],
+  "poly": [],
+  "raas": [],
+  "raga": [
+   {
+    "id": "SMuZx-bFM",
+    "url": "https://cdn2.thecatapi.com/images/SMuZx-bFM.jpg",
+    "w": 3000,
+    "h": 2000,
+    "fx": 18,
+    "fy": 50
+   },
+   {
+    "id": "sWvKIFxBM",
+    "url": "https://cdn2.thecatapi.com/images/sWvKIFxBM.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "THXQ9Nqie",
+    "url": "https://cdn2.thecatapi.com/images/THXQ9Nqie.jpg",
+    "w": 1080,
+    "h": 940,
+    "fx": 22,
+    "fy": 24
+   },
+   {
+    "id": "--YZl1YWO",
+    "url": "https://cdn2.thecatapi.com/images/--YZl1YWO.jpg",
+    "w": 1440,
+    "h": 1585,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "wQz67QCme",
+    "url": "https://cdn2.thecatapi.com/images/wQz67QCme.jpg",
+    "w": 750,
+    "h": 937,
+    "fx": 17,
+    "fy": 36
+   },
+   {
+    "id": "wwFp9IiRd",
+    "url": "https://cdn2.thecatapi.com/images/wwFp9IiRd.jpg",
+    "w": 1214,
+    "h": 826,
+    "fx": 15,
+    "fy": 15
+   }
+  ],
+  "ragd": [
+   {
+    "id": "80kGxlgR1",
+    "url": "https://cdn2.thecatapi.com/images/80kGxlgR1.jpg",
+    "w": 4272,
+    "h": 2848,
+    "fx": 20,
+    "fy": 15
+   },
+   {
+    "id": "y0wAin0Ei",
+    "url": "https://cdn2.thecatapi.com/images/y0wAin0Ei.jpg",
+    "w": 1200,
+    "h": 800,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "HDxfaNlLj",
+    "url": "https://cdn2.thecatapi.com/images/HDxfaNlLj.jpg",
+    "w": 1200,
+    "h": 830,
+    "fx": 16,
+    "fy": 16
+   },
+   {
+    "id": "nK0RaZbq3",
+    "url": "https://cdn2.thecatapi.com/images/nK0RaZbq3.jpg",
+    "w": 1200,
+    "h": 900,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "bCHc9dHit",
+    "url": "https://cdn2.thecatapi.com/images/bCHc9dHit.jpg",
+    "w": 1280,
+    "h": 853,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "eF3HSMIB_",
+    "url": "https://cdn2.thecatapi.com/images/eF3HSMIB_.jpg",
+    "w": 1800,
+    "h": 1592,
+    "fx": 21,
+    "fy": 25
+   }
+  ],
+  "rblu": [
+   {
+    "id": "S-1YzA7-_",
+    "url": "https://cdn2.thecatapi.com/images/S-1YzA7-_.jpg",
+    "w": 3888,
+    "h": 2592,
+    "fx": 31,
+    "fy": 15
+   },
+   {
+    "id": "Rhj-JsTLP",
+    "url": "https://cdn2.thecatapi.com/images/Rhj-JsTLP.jpg",
+    "w": 1280,
+    "h": 853,
+    "fx": 30,
+    "fy": 36
+   },
+   {
+    "id": "DdmsQrCAv",
+    "url": "https://cdn2.thecatapi.com/images/DdmsQrCAv.jpg",
+    "w": 1340,
+    "h": 1920,
+    "fx": 15,
+    "fy": 39
+   },
+   {
+    "id": "xZysIjSqa",
+    "url": "https://cdn2.thecatapi.com/images/xZysIjSqa.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "zK-7AFYVn",
+    "url": "https://cdn2.thecatapi.com/images/zK-7AFYVn.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "kmvetZsyr",
+    "url": "https://cdn2.thecatapi.com/images/kmvetZsyr.jpg",
+    "w": 1080,
+    "h": 809,
+    "fx": 15,
+    "fy": 22
+   }
+  ],
+  "safa": [],
+  "sava": [
+   {
+    "id": "qf6MhNS8z",
+    "url": "https://cdn2.thecatapi.com/images/qf6MhNS8z.jpg",
+    "w": 4032,
+    "h": 3024,
+    "fx": 26,
+    "fy": 82
+   },
+   {
+    "id": "SAaCmtjAn",
+    "url": "https://cdn2.thecatapi.com/images/SAaCmtjAn.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "h0A4PuWV0",
+    "url": "https://cdn2.thecatapi.com/images/h0A4PuWV0.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "yKXeUMNZ8",
+    "url": "https://cdn2.thecatapi.com/images/yKXeUMNZ8.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 26,
+    "fy": 28
+   },
+   {
+    "id": "ctHlkAH3L",
+    "url": "https://cdn2.thecatapi.com/images/ctHlkAH3L.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 15,
+    "fy": 30
+   },
+   {
+    "id": "0T0KmC8r1",
+    "url": "https://cdn2.thecatapi.com/images/0T0KmC8r1.jpg",
+    "w": 1280,
+    "h": 960,
+    "fx": 35,
+    "fy": 58
+   }
+  ],
+  "sfol": [
+   {
+    "id": "dkN5wGUxC",
+    "url": "https://cdn2.thecatapi.com/images/dkN5wGUxC.jpg",
+    "w": 4272,
+    "h": 2848,
+    "fx": 18,
+    "fy": 21
+   },
+   {
+    "id": "tOGSsMx5J",
+    "url": "https://cdn2.thecatapi.com/images/tOGSsMx5J.jpg",
+    "w": 736,
+    "h": 1106,
+    "fx": 42,
+    "fy": 15
+   },
+   {
+    "id": "hd-zs3918",
+    "url": "https://cdn2.thecatapi.com/images/hd-zs3918.jpg",
+    "w": 2560,
+    "h": 1440,
+    "fx": 15,
+    "fy": 32
+   },
+   {
+    "id": "q7izjTTa4",
+    "url": "https://cdn2.thecatapi.com/images/q7izjTTa4.jpg",
+    "w": 960,
+    "h": 960,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "oIkRTUZnt",
+    "url": "https://cdn2.thecatapi.com/images/oIkRTUZnt.jpg",
+    "w": 2759,
+    "h": 1847,
+    "fx": 37,
+    "fy": 19
+   },
+   {
+    "id": "IOqJ6RK7L",
+    "url": "https://cdn2.thecatapi.com/images/IOqJ6RK7L.jpg",
+    "w": 750,
+    "h": 937,
+    "fx": 31,
+    "fy": 23
+   }
+  ],
+  "srex": [
+   {
+    "id": "B2YB13Ydq",
+    "url": "https://cdn2.thecatapi.com/images/B2YB13Ydq.jpg",
+    "w": 3447,
+    "h": 2290,
+    "fx": 38,
+    "fy": 26
+   },
+   {
+    "id": "l-LrP1VY4",
+    "url": "https://cdn2.thecatapi.com/images/l-LrP1VY4.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "0Vz3XgaPM",
+    "url": "https://cdn2.thecatapi.com/images/0Vz3XgaPM.jpg",
+    "w": 1600,
+    "h": 1065,
+    "fx": 30,
+    "fy": 17
+   },
+   {
+    "id": "enV_ZqSpp",
+    "url": "https://cdn2.thecatapi.com/images/enV_ZqSpp.jpg",
+    "w": 2005,
+    "h": 1375,
+    "fx": 33,
+    "fy": 19
+   },
+   {
+    "id": "Z0X1tZQIt",
+    "url": "https://cdn2.thecatapi.com/images/Z0X1tZQIt.jpg",
+    "w": 1138,
+    "h": 1196,
+    "fx": 23,
+    "fy": 15
+   },
+   {
+    "id": "0dR5LpzNO",
+    "url": "https://cdn2.thecatapi.com/images/0dR5LpzNO.jpg",
+    "w": 1040,
+    "h": 1300,
+    "fx": 19,
+    "fy": 19
+   }
+  ],
+  "sere": [],
+  "siam": [
+   {
+    "id": "Xwp-MBOtI",
+    "url": "https://cdn2.thecatapi.com/images/Xwp-MBOtI.jpg",
+    "w": 3225,
+    "h": 2419,
+    "fx": 51,
+    "fy": 43
+   },
+   {
+    "id": "__tqyLW91",
+    "url": "https://cdn2.thecatapi.com/images/__tqyLW91.jpg",
+    "w": 937,
+    "h": 1171,
+    "fx": 15,
+    "fy": 17
+   },
+   {
+    "id": "DFHMMPNcD",
+    "url": "https://cdn2.thecatapi.com/images/DFHMMPNcD.jpg",
+    "w": 1080,
+    "h": 1319,
+    "fx": 15,
+    "fy": 57
+   },
+   {
+    "id": "kjKxmn3Ob",
+    "url": "https://cdn2.thecatapi.com/images/kjKxmn3Ob.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "Kf-zJDHCx",
+    "url": "https://cdn2.thecatapi.com/images/Kf-zJDHCx.jpg",
+    "w": 1080,
+    "h": 967,
+    "fx": 16,
+    "fy": 15
+   },
+   {
+    "id": "O2aNhFGU-",
+    "url": "https://cdn2.thecatapi.com/images/O2aNhFGU-.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "sibe": [
+   {
+    "id": "IJyPTBLyU",
+    "url": "https://cdn2.thecatapi.com/images/IJyPTBLyU.jpg",
+    "w": 5401,
+    "h": 3601,
+    "fx": 44,
+    "fy": 40
+   },
+   {
+    "id": "h3ima-Zx3",
+    "url": "https://cdn2.thecatapi.com/images/h3ima-Zx3.jpg",
+    "w": 2048,
+    "h": 1152,
+    "fx": 15,
+    "fy": 36
+   },
+   {
+    "id": "YLN2chAIF",
+    "url": "https://cdn2.thecatapi.com/images/YLN2chAIF.jpg",
+    "w": 1697,
+    "h": 1131,
+    "fx": 32,
+    "fy": 23
+   },
+   {
+    "id": "cs8MHOb5I",
+    "url": "https://cdn2.thecatapi.com/images/cs8MHOb5I.jpg",
+    "w": 1080,
+    "h": 698,
+    "fx": 20,
+    "fy": 34
+   },
+   {
+    "id": "aMcspzvtg",
+    "url": "https://cdn2.thecatapi.com/images/aMcspzvtg.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "_DFVS4T4I",
+    "url": "https://cdn2.thecatapi.com/images/_DFVS4T4I.jpg",
+    "w": 1080,
+    "h": 1224,
+    "fx": 50,
+    "fy": 26
+   }
+  ],
+  "sing": [
+   {
+    "id": "GOvziuOyw",
+    "url": "https://cdn2.thecatapi.com/images/GOvziuOyw.jpg",
+    "w": 3309,
+    "h": 2482,
+    "fx": 42,
+    "fy": 32
+   },
+   {
+    "id": "_PH33O5FA",
+    "url": "https://cdn2.thecatapi.com/images/_PH33O5FA.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "bYlsJYWKg",
+    "url": "https://cdn2.thecatapi.com/images/bYlsJYWKg.jpg",
+    "w": 1080,
+    "h": 972,
+    "fx": 62,
+    "fy": 64
+   },
+   {
+    "id": "VGzO6r82_",
+    "url": "https://cdn2.thecatapi.com/images/VGzO6r82_.jpg",
+    "w": 1600,
+    "h": 1200,
+    "fx": 23,
+    "fy": 27
+   },
+   {
+    "id": "6jbkliQh5",
+    "url": "https://cdn2.thecatapi.com/images/6jbkliQh5.jpg",
+    "w": 2048,
+    "h": 1366,
+    "fx": 15,
+    "fy": 41
+   },
+   {
+    "id": "0THCGrAZj",
+    "url": "https://cdn2.thecatapi.com/images/0THCGrAZj.jpg",
+    "w": 1200,
+    "h": 811,
+    "fx": 20,
+    "fy": 15
+   }
+  ],
+  "sinp": [],
+  "skoo": [],
+  "snow": [
+   {
+    "id": "BB18hZT2z",
+    "url": "https://cdn2.thecatapi.com/images/BB18hZT2z.jpg",
+    "w": 2909,
+    "h": 2126,
+    "fx": 38,
+    "fy": 24
+   },
+   {
+    "id": "MWPRkZh6u",
+    "url": "https://cdn2.thecatapi.com/images/MWPRkZh6u.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 37,
+    "fy": 15
+   },
+   {
+    "id": "t4f-Ov8YD",
+    "url": "https://cdn2.thecatapi.com/images/t4f-Ov8YD.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "kkBIQnncT",
+    "url": "https://cdn2.thecatapi.com/images/kkBIQnncT.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "_qUK20W2d",
+    "url": "https://cdn2.thecatapi.com/images/_qUK20W2d.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "QTV5QVt_L",
+    "url": "https://cdn2.thecatapi.com/images/QTV5QVt_L.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 19,
+    "fy": 57
+   }
+  ],
+  "soko": [],
+  "soma": [
+   {
+    "id": "yLnM69IIz",
+    "url": "https://cdn2.thecatapi.com/images/yLnM69IIz.jpg",
+    "w": 4368,
+    "h": 2912,
+    "fx": 58,
+    "fy": 15
+   },
+   {
+    "id": "YQtmOXP0_",
+    "url": "https://cdn2.thecatapi.com/images/YQtmOXP0_.jpg",
+    "w": 1600,
+    "h": 1067,
+    "fx": 15,
+    "fy": 39
+   },
+   {
+    "id": "L5QYxsrYw",
+    "url": "https://cdn2.thecatapi.com/images/L5QYxsrYw.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "f0UR7b5nA",
+    "url": "https://cdn2.thecatapi.com/images/f0UR7b5nA.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "IFLjrNmc3",
+    "url": "https://cdn2.thecatapi.com/images/IFLjrNmc3.jpg",
+    "w": 750,
+    "h": 937,
+    "fx": 23,
+    "fy": 15
+   },
+   {
+    "id": "wUxNIew6I",
+    "url": "https://cdn2.thecatapi.com/images/wUxNIew6I.jpg",
+    "w": 1280,
+    "h": 1920,
+    "fx": 36,
+    "fy": 27
+   }
+  ],
+  "sphy": [
+   {
+    "id": "2hPNn0Wrr",
+    "url": "https://cdn2.thecatapi.com/images/2hPNn0Wrr.jpg",
+    "w": 3840,
+    "h": 2160,
+    "fx": 30,
+    "fy": 22
+   },
+   {
+    "id": "Y_z-aBHvf",
+    "url": "https://cdn2.thecatapi.com/images/Y_z-aBHvf.jpg",
+    "w": 1280,
+    "h": 852,
+    "fx": 23,
+    "fy": 15
+   },
+   {
+    "id": "HBWdtLpif",
+    "url": "https://cdn2.thecatapi.com/images/HBWdtLpif.jpg",
+    "w": 955,
+    "h": 1023,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "cIFwPWy84",
+    "url": "https://cdn2.thecatapi.com/images/cIFwPWy84.jpg",
+    "w": 1705,
+    "h": 1280,
+    "fx": 28,
+    "fy": 15
+   },
+   {
+    "id": "h8dnuSch3",
+    "url": "https://cdn2.thecatapi.com/images/h8dnuSch3.jpg",
+    "w": 1080,
+    "h": 809,
+    "fx": 16,
+    "fy": 15
+   },
+   {
+    "id": "JKITuMU25",
+    "url": "https://cdn2.thecatapi.com/images/JKITuMU25.jpg",
+    "w": 1440,
+    "h": 1800,
+    "fx": 15,
+    "fy": 15
+   }
+  ],
+  "suph": [],
+  "thai": [],
+  "tonk": [
+   {
+    "id": "TYQKhQ3mn",
+    "url": "https://cdn2.thecatapi.com/images/TYQKhQ3mn.jpg",
+    "w": 1440,
+    "h": 1440,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "o0eqzDky9",
+    "url": "https://cdn2.thecatapi.com/images/o0eqzDky9.jpg",
+    "w": 768,
+    "h": 1024,
+    "fx": 33,
+    "fy": 30
+   },
+   {
+    "id": "mudzVExq0",
+    "url": "https://cdn2.thecatapi.com/images/mudzVExq0.jpg",
+    "w": 1100,
+    "h": 717,
+    "fx": 35,
+    "fy": 15
+   },
+   {
+    "id": "_np7TW9Iq",
+    "url": "https://cdn2.thecatapi.com/images/_np7TW9Iq.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "t8oArUO-L",
+    "url": "https://cdn2.thecatapi.com/images/t8oArUO-L.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "5qNv0jHXW",
+    "url": "https://cdn2.thecatapi.com/images/5qNv0jHXW.jpg",
+    "w": 1024,
+    "h": 1024,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "toyb": [],
+  "toyg": [
+   {
+    "id": "Ba-qRZ_8n",
+    "url": "https://cdn2.thecatapi.com/images/Ba-qRZ_8n.jpg",
+    "w": 2736,
+    "h": 1824,
+    "fx": 26,
+    "fy": 33
+   },
+   {
+    "id": "nHrt_0PV3",
+    "url": "https://cdn2.thecatapi.com/images/nHrt_0PV3.jpg",
+    "w": 750,
+    "h": 777,
+    "fx": 15,
+    "fy": 21
+   },
+   {
+    "id": "O3F3_S1XN",
+    "url": "https://cdn2.thecatapi.com/images/O3F3_S1XN.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "Qjb0fsrDo",
+    "url": "https://cdn2.thecatapi.com/images/Qjb0fsrDo.jpg",
+    "w": 750,
+    "h": 937,
+    "fx": 20,
+    "fy": 15
+   },
+   {
+    "id": "NoQGHgPl7",
+    "url": "https://cdn2.thecatapi.com/images/NoQGHgPl7.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 30,
+    "fy": 24
+   },
+   {
+    "id": "_rnhm7vpT",
+    "url": "https://cdn2.thecatapi.com/images/_rnhm7vpT.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "tang": [
+   {
+    "id": "KU_LUntSX",
+    "url": "https://cdn2.thecatapi.com/images/KU_LUntSX.jpg",
+    "w": 2634,
+    "h": 3399,
+    "fx": 20,
+    "fy": 15
+   },
+   {
+    "id": "DYOqsRy9f",
+    "url": "https://cdn2.thecatapi.com/images/DYOqsRy9f.jpg",
+    "w": 1080,
+    "h": 720,
+    "fx": 29,
+    "fy": 15
+   },
+   {
+    "id": "41Fe8q9vU",
+    "url": "https://cdn2.thecatapi.com/images/41Fe8q9vU.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "WE47Mw166",
+    "url": "https://cdn2.thecatapi.com/images/WE47Mw166.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "DVWNJ5WIr",
+    "url": "https://cdn2.thecatapi.com/images/DVWNJ5WIr.jpg",
+    "w": 750,
+    "h": 937,
+    "fx": 21,
+    "fy": 15
+   },
+   {
+    "id": "xTo8K7wb3",
+    "url": "https://cdn2.thecatapi.com/images/xTo8K7wb3.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "tvan": [
+   {
+    "id": "NHiuHD4Ax",
+    "url": "https://cdn2.thecatapi.com/images/NHiuHD4Ax.jpg",
+    "w": 1656,
+    "h": 2208,
+    "fx": 46,
+    "fy": 19
+   },
+   {
+    "id": "Co5BH7YZT",
+    "url": "https://cdn2.thecatapi.com/images/Co5BH7YZT.jpg",
+    "w": 1024,
+    "h": 768,
+    "fx": 20,
+    "fy": 15
+   },
+   {
+    "id": "j9_ETlBMp",
+    "url": "https://cdn2.thecatapi.com/images/j9_ETlBMp.jpg",
+    "w": 1090,
+    "h": 1600,
+    "fx": 31,
+    "fy": 15
+   },
+   {
+    "id": "rEHfYqWUM",
+    "url": "https://cdn2.thecatapi.com/images/rEHfYqWUM.jpg",
+    "w": 1100,
+    "h": 733,
+    "fx": 25,
+    "fy": 15
+   },
+   {
+    "id": "2OKotXbFe",
+    "url": "https://cdn2.thecatapi.com/images/2OKotXbFe.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 15,
+    "fy": 15
+   },
+   {
+    "id": "AhN6mXcc3",
+    "url": "https://cdn2.thecatapi.com/images/AhN6mXcc3.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   }
+  ],
+  "ukra": [],
+  "ycho": [
+   {
+    "id": "xIICfnlNm",
+    "url": "https://cdn2.thecatapi.com/images/xIICfnlNm.jpg",
+    "w": 1696,
+    "h": 2544,
+    "fx": 40,
+    "fy": 15
+   },
+   {
+    "id": "sNSYauLG8",
+    "url": "https://cdn2.thecatapi.com/images/sNSYauLG8.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 57,
+    "fy": 15
+   },
+   {
+    "id": "LzVDEMYIv",
+    "url": "https://cdn2.thecatapi.com/images/LzVDEMYIv.jpg",
+    "w": 750,
+    "h": 750,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "PlvdElgfk",
+    "url": "https://cdn2.thecatapi.com/images/PlvdElgfk.jpg",
+    "w": 1080,
+    "h": 1080,
+    "fx": null,
+    "fy": null
+   },
+   {
+    "id": "bqTGCEECv",
+    "url": "https://cdn2.thecatapi.com/images/bqTGCEECv.jpg",
+    "w": 1080,
+    "h": 1349,
+    "fx": 44,
+    "fy": 15
+   },
+   {
+    "id": "7pCnjXd47",
+    "url": "https://cdn2.thecatapi.com/images/7pCnjXd47.jpg",
+    "w": 1080,
+    "h": 1350,
+    "fx": 31,
+    "fy": 41
+   }
+  ]
+ }
+}

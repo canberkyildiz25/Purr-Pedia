@@ -1,0 +1,66 @@
+{
+ "fetched": "2026-10-06",
+ "films": [
+  {
+   "key": "lapping",
+   "seconds": 8,
+   "title": "Cat lapping water off ground in slow motion.gk.webm",
+   "by": "Grendelkhan",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cat_lapping_water_off_ground_in_slow_motion.gk.webm"
+  },
+  {
+   "key": "grooming",
+   "seconds": 8,
+   "title": "Housecat Grooming Itself.webm",
+   "by": "Thebombzen",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Housecat_Grooming_Itself.webm"
+  },
+  {
+   "key": "kneading",
+   "seconds": 8,
+   "title": "Cat kneading blanket.gk.webm",
+   "by": "Grendelkhan",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cat_kneading_blanket.gk.webm"
+  },
+  {
+   "key": "catnip",
+   "seconds": 8,
+   "title": "Cat interacting with catnip (nepeta).webm",
+   "by": "Leonora Enking",
+   "licence": "CC BY-SA 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cat_interacting_with_catnip_(nepeta).webm"
+  },
+  {
+   "key": "walking",
+   "seconds": 7,
+   "title": "Black Cat walking.webm",
+   "by": "Dzkouslavia",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm"
+  }
+ ],
+ "stock": [
+  {
+   "key": "arrival",
+   "use": "Home page",
+   "from": "Pexels",
+   "by": "Kmeel.com Videos",
+   "page": "https://www.pexels.com/video/kitten-on-a-light-blue-background-7120007/"
+  },
+  {
+   "key": "eye",
+   "use": "Home page",
+   "from": "Mixkit",
+   "by": null,
+   "page": "https://mixkit.co/free-stock-video/yellow-eyed-black-cat-close-up-1546/"
+  }
+ ]
+}
